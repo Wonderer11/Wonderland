@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Wonderland</title>
-        <link>http://localhost:1313/en/</link>
+        <link>http://localhost:56735/en/</link>
         <description>Recent content on Wonderland</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language><atom:link href="http://localhost:56735/en/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
