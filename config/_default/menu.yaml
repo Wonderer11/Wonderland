@@ -1,0 +1,14 @@
+# Configure main menu and social menu
+
+social:
+    - identifier: mastodon
+      name: Mastodon
+      url: https://liker.social/@Wonderer
+      params:
+          icon: brand-mastodon
+
+    - identifier: penana
+      name: Penana
+      url: https://www.penana.com/user/116863/%E7%99%BC%E5%A4%A2%E5%AE%B6
+      params:
+          icon: brand-penana
