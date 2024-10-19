@@ -2,7 +2,7 @@ baseURL: 'https://example.org/'
 theme: 'hugo-theme-stack-3.27.0'
 
 pagination:
-    pagerSize: 3
+    pagerSize: 20
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw

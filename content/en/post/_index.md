@@ -1,10 +1,8 @@
 ---
-title: 关于
+title:
 menu:
     main: 
-        weight: -90
         params:
-            icon: user
+            icon: 
 ---
-
 This is a test page for i18n support.

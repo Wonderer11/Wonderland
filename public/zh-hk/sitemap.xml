@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/zh-hk/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-hk/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/archives/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-hk/about/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/about/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-hk/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -19,6 +73,40 @@
                 href="http://localhost:1313/zh-hk/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-hk/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/links/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-hk/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/search/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-hk/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -34,23 +122,6 @@
                 rel="alternate"
                 hreflang="zh-hk"
                 href="http://localhost:1313/zh-hk/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-hk/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/"
                 />
   </url>
 </urlset>
