@@ -1,7 +1,7 @@
 ---
+title: Home
 menu:
     main:
-        name: Home
         params:
             icon: home
 ---
