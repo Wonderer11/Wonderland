@@ -37,21 +37,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/archives/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/post/</loc>
   </url><url>
@@ -74,39 +59,9 @@
   </url><url>
     <loc>http://localhost:1313/en/gallery/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/links/"
-                />
+    <loc>http://localhost:1313/en/page/</loc>
   </url><url>
     <loc>http://localhost:1313/en/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/search/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
@@ -124,7 +79,5 @@
                 hreflang="en-us"
                 href="http://localhost:1313/en/tags/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/en/about/wonderer/</loc>
   </url>
 </urlset>

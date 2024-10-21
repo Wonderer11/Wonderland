@@ -1,5 +1,5 @@
 baseURL: 'https://example.org/'
-theme: 'hugo-theme-stack-3.27.0'
+theme: 'hugo-theme-stack-3.29.0'
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true

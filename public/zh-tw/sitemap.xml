@@ -47,11 +47,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-tw"
                 href="http://localhost:1313/zh-tw/archives/"
                 />
@@ -74,11 +69,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-tw/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/search/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -108,11 +98,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-tw/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/links/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"

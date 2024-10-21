@@ -12,3 +12,9 @@ social:
       url: https://www.penana.com/user/116863/%E7%99%BC%E5%A4%A2%E5%AE%B6
       params:
           icon: brand-penana
+          
+    - identifier: matters
+      name: Matters
+      url: https://matters.town/@wonderer
+      params:
+          icon:
