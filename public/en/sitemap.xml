@@ -54,21 +54,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/post/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
@@ -86,6 +71,8 @@
                 hreflang="en-us"
                 href="http://localhost:1313/en/categories/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/gallery/</loc>
   </url><url>
     <loc>http://localhost:1313/en/links/</loc>
     <xhtml:link
@@ -137,5 +124,7 @@
                 hreflang="en-us"
                 href="http://localhost:1313/en/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/about/wonderer/</loc>
   </url>
 </urlset>

@@ -73,23 +73,6 @@
                 href="http://localhost:1313/zh-tw/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-tw/links/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/links/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/links/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh-tw/search/</loc>
     <xhtml:link
                 rel="alternate"
@@ -124,21 +107,21 @@
                 href="http://localhost:1313/zh-tw/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-tw/post/</loc>
+    <loc>http://localhost:1313/zh-tw/links/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/post/"
+                href="http://localhost:1313/en/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/post/"
+                href="http://localhost:1313/zh-hk/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/post/"
+                href="http://localhost:1313/zh-tw/links/"
                 />
   </url>
 </urlset>

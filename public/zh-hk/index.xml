@@ -43,7 +43,15 @@
 </description>
         </item>
         <item>
-        <title>Links</title>
+        <title>Search</title>
+        <link>http://localhost:1313/zh-hk/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/zh-hk/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>連結</title>
         <link>http://localhost:1313/zh-hk/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -76,14 +84,6 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>http://localhost:1313/zh-hk/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-hk/search/</guid>
-        <description></description>
         </item>
         
     </channel>

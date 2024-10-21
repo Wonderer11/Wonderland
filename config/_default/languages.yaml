@@ -1,0 +1,26 @@
+en:
+    languageCode: en-us
+    languageName: English
+    contentDir: content/en
+    title: 'Wonderland'
+    params:
+        sidebar:
+            subtitle: "A home for wonderer"
+
+zh-hk:
+    languageCode: zh-hk
+    languageName: 粵語
+    contentDir: content/zh-hk
+    title: 發夢站
+    params:
+        sidebar:
+            subtitle: 用愛發夢
+
+zh-tw:
+    languageCode: zh-tw
+    languageName: 華語
+    contentDir: content/zh-tw
+    title: 發夢站
+    params:
+        sidebar:
+            subtitle: 用愛發夢
