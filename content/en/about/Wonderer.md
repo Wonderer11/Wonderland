@@ -1,5 +1,8 @@
 ---
 title: 'Wonderer'
+aliases:
+  - Profile
+  - Contact
 links:
   - title: Penana
     description: 
