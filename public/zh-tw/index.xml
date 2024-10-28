@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Home on 發夢站</title>
-        <link>http://localhost:50484/zh-tw/</link>
+        <link>http://localhost:1313/zh-tw/</link>
         <description>Recent content in Home on 發夢站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:50484/zh-tw/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
-        <link>http://localhost:50484/zh-tw/about/</link>
+        <link>http://localhost:1313/zh-tw/about/</link>
         <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:50484/zh-tw/about/</guid>
+        <guid>http://localhost:1313/zh-tw/about/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -36,26 +36,26 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:50484/zh-tw/archives/</link>
+        <link>http://localhost:1313/zh-tw/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:50484/zh-tw/archives/</guid>
+        <guid>http://localhost:1313/zh-tw/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:50484/zh-tw/search/</link>
+        <link>http://localhost:1313/zh-tw/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:50484/zh-tw/search/</guid>
+        <guid>http://localhost:1313/zh-tw/search/</guid>
         <description></description>
         </item>
         <item>
         <title>連結</title>
-        <link>http://localhost:50484/zh-tw/links/</link>
+        <link>http://localhost:1313/zh-tw/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:50484/zh-tw/links/</guid>
+        <guid>http://localhost:1313/zh-tw/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
