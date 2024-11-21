@@ -7,14 +7,11 @@
                 {{ .Parent.Title }}
             {{ end }}
         </h3>
-
+        		
         <div class="section-card">
             <div class="section-details">
+				{{ partial "article/article.html" . }}
                 <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
-			    {{ partial "article/article.html" . }}
-			    {{ if .Params.links }}
-                    {{ partial "article/components/links" . }}
-                {{ end }}
             </div>
     
             {{- $image := partialCached "helper/image" (dict "Context" . "Type" "section") .RelPermalink "section" -}}

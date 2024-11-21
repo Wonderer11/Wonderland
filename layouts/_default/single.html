@@ -5,8 +5,8 @@
             - Widget different from 'TOC' is enabled
             - TOC is enabled and not empty
     */}}
-    {{- $HasWidgetNotTOC := false -}}
-    {{- $TOCWidgetEnabled := false -}}
+    {{- $HasWidgetNotTOC := true -}}
+    {{- $TOCWidgetEnabled := true -}}
     {{- range .Site.Params.widgets.page -}}
         {{- if ne .type "toc" -}}
             {{ $HasWidgetNotTOC = true -}}
