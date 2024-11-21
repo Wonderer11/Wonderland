@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-hk"
                 href="http://localhost:1313/zh-hk/archives/"
                 />
@@ -31,6 +36,24 @@
                 rel="alternate"
                 hreflang="zh-hk"
                 href="http://localhost:1313/zh-hk/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-hk/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/page/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-hk/about/</loc>
@@ -68,7 +91,24 @@
                 href="http://localhost:1313/zh-hk/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-hk/gallery/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/gallery/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-hk/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/search/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -97,16 +137,21 @@
                 href="http://localhost:1313/zh-hk/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-hk/links/</loc>
+    <loc>http://localhost:1313/zh-hk/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/post/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/links/"
+                href="http://localhost:1313/zh-tw/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/links/"
+                href="http://localhost:1313/zh-hk/post/"
                 />
   </url>
 </urlset>
