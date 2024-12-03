@@ -95,6 +95,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/en/gallery/"
                 />

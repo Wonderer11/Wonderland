@@ -30,8 +30,8 @@ article:
         other: 最後更新
 
     readingTime:
-        one: "閱讀時間: {{ .Count }} 分鐘"
-        other: "閱讀時間: {{ .Count }} 分鐘"
+        one: "閱讀需時 {{ .Count }} 分鐘"
+        other: "閱讀需時 {{ .Count }} 分鐘"
 
 notFound:
     title:

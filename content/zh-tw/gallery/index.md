@@ -1,8 +1,7 @@
 ---
-title: Gallery
+title: 畫廊
 menu:
     main: 
         params:
             icon: library-photo
 ---
-This is a test page for i18n support.

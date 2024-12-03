@@ -1,34 +1,35 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
+title: 關於
+description: Wonderland, a home for Wonderer
 aliases:
-  - about-us
-  - about-hugo
-  - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+  - About
+links:
+  - title: Hugo
+    description: Hugo, the world's fastest framework for building websites.
+    website: https://gohugo.io/
+    image:
+  - title: Likecoin
+    description: LikeCoin, an application-specific blockchain for decentralized publishing built on Cosmos SDK.
+    website: https://about.like.co/
+    image: https://1249647148-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LL4mdaVjNgL6A1--PV0-1972196547%2Fuploads%2FxWHh2smDvgmTJRNMj2wp%2FLikeCoin_PressKit_Coin_Fullcolor.svg?alt=media&token=bacf8d89-b0b0-4de1-acbf-27918b62add3
+  - title: Mastodon
+    description: liker.social is one of the many independent Mastodon servers you can use to participate in the fediverse.
+    website: https://liker.social/@Wonderer
+    image: https://joinmastodon.org/logos/logo-purple.svg
+  - title: Penana
+    description: Penana is an online platform that aims to create a sustainable and creative community.
+    website: https://www.penana.com/user/116863/%E7%99%BC%E5%A4%A2%E5%AE%B6
+    image: https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262
+
 menu:
-    main: 
-        weight: -90
+    main:
         params:
             icon: user
+comments: false
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+# 發夢站
+呢個網站係用 Hugo 建立嘅，Hugo 係[Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) 許可下的開源靜態網站生成器。
 
-Hugo makes use of a variety of open source projects including:
-
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+# 發夢家
+Hello World!
