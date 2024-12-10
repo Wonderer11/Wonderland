@@ -5,13 +5,13 @@
     <loc>http://localhost:1313/en/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -22,13 +22,13 @@
     <loc>http://localhost:1313/en/about/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/about/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/about/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/about/"
                 />
     <xhtml:link
                 rel="alternate"

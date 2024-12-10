@@ -15,21 +15,21 @@
         <description></description>
         </item>
         <item>
+        <title>LikeCoin</title>
+        <link>http://localhost:1313/zh-hk/p/likecoin/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/zh-hk/p/likecoin/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Search</title>
         <link>http://localhost:1313/zh-hk/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/zh-hk/search/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>文章</title>
-        <link>http://localhost:1313/zh-hk/post/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-hk/post/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>畫廊</title>
