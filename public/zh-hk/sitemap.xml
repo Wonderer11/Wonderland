@@ -73,6 +73,8 @@
                 href="http://localhost:1313/zh-hk/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-hk/p/likecoin/</loc>
+  </url><url>
     <loc>http://localhost:1313/zh-hk/search/</loc>
     <xhtml:link
                 rel="alternate"
