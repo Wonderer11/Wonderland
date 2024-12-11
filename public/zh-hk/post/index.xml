@@ -14,7 +14,6 @@
         <description>&lt;p&gt;This is a test page for LikeCoin support.&lt;/p&gt;
 &lt;h1 id=&#34;like-button&#34;&gt;Like Button
 &lt;/h1&gt;&lt;iframe class=&#34;LikeCoin&#34;
- height=&#34;235&#34;
  src=&#34;https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}&#34;
  width=&#34;100%&#34;
  frameborder=0&gt;
@@ -25,11 +24,12 @@
  width=&#34;100%&#34;
  frameborder=0&gt;
 &lt;/iframe&gt;
-&lt;iframe class=&#34;Like&#34;
- src=&#34;https://like.co/in/widget/pay?to=h47388304&amp;amount=1&#34;
+&lt;iframe class=&#34;Likepay 10&#34;
+ src=&#34;https://like.co/in/widget/pay?to=h47388304&amp;amount=10&#34;
  width=&#34;100%&#34;
  frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;</description>
+&lt;/iframe&gt;
+</description>
         </item>
         
     </channel>
