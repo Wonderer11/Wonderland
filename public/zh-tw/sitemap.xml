@@ -73,6 +73,23 @@
                 href="http://localhost:1313/zh-tw/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-tw/p/likecoin-test-markdown/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/p/likecoin-test-markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/p/likecoin-test-markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/p/likecoin-test-markdown/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-tw/search/</loc>
     <xhtml:link
                 rel="alternate"
