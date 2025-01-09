@@ -15,12 +15,12 @@
         <description></description>
         </item>
         <item>
-        <title>LikeCoin Test Markdown</title>
-        <link>http://localhost:1313/zh-hk/p/likecoin-test-markdown/</link>
+        <title>LikeCoin 測試 Markdown</title>
+        <link>http://localhost:1313/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-hk/p/likecoin-test-markdown/</guid>
-        <description>&lt;p&gt;This is a test page for LikeCoin support.&lt;/p&gt;
+        <guid>http://localhost:1313/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</guid>
+        <description>&lt;p&gt;呢個係測試LikeCoin插件嘅頁面&lt;/p&gt;
 &lt;h1 id=&#34;like-button&#34;&gt;Like Button
 &lt;/h1&gt;&lt;iframe class=&#34;LikeCoin&#34;
  src=&#34;https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}&#34;
@@ -46,14 +46,6 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/zh-hk/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>畫廊</title>
-        <link>http://localhost:1313/zh-hk/gallery/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-hk/gallery/</guid>
         <description></description>
         </item>
         <item>

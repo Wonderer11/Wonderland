@@ -1,7 +1,7 @@
 ---
-title: LikeCoin Test Markdown
+title: LikeCoin 測試 Markdown
 ---
-This is a test page for LikeCoin support.
+這是測試LikeCoin插件的頁面。
 
 # Like Button
 
