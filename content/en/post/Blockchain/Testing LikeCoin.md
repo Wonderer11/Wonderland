@@ -1,7 +1,7 @@
 ---
 title: LikeCoin Test Markdown
+description: This is a test page for LikeCoin support.
 ---
-This is a test page for LikeCoin support.
 
 # Like Button
 

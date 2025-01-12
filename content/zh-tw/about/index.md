@@ -27,6 +27,7 @@ menu:
             icon: user
 comments: false
 ---
+
 # 發夢站
 這個網站是用 Hugo 建立的，Hugo 是[Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) 許可下的開源靜態網站生成器。
 

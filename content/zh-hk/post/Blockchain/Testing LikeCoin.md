@@ -1,8 +1,7 @@
 ---
 title: LikeCoin 測試 Markdown
+description: 呢個係測試LikeCoin插件嘅頁面
 ---
-呢個係測試LikeCoin插件嘅頁面
-
 # Like Button
 
 <iframe class="LikeCoin"

@@ -27,6 +27,7 @@ menu:
             icon: user
 comments: false
 ---
+
 # Wonderland
 Built with Hugo, an open source static site generator available under the [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE).
 
