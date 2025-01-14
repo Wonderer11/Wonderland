@@ -35,7 +35,7 @@ article:
 
 notFound:
     title:
-        other: Not Found
+        other: 404 Not Found
 
     subtitle:
         other: 頁面不存在
@@ -43,14 +43,14 @@ notFound:
 widget:
     archives:
         title:
-            other: Archives
-
+            other: 檔案
         more:
             other: 更多
 
     tagCloud:
         title:
             other: 標籤
+            
     categoriesCloud:
         title:
             other: 分類
@@ -60,7 +60,7 @@ search:
         other: 搜尋
 
     placeholder:
-        other: Type 關鍵字...
+        other: 輸入關鍵字...
 
     resultTitle:
         other: "#PAGES_COUNT 個結果 （用時 #TIME_SECONDS 秒）"

@@ -1,6 +1,10 @@
 ---
 title: LikeCoin Test Markdown
 description: This is a test page for LikeCoin support.
+categories:
+    - Test
+tags:
+    - LikeCoin
 ---
 
 # Like Button

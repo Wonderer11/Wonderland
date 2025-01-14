@@ -1,6 +1,10 @@
 ---
 title: LikeCoin 測試 Markdown
 description: 這是測試LikeCoin插件的頁面。
+categories:
+    - Test
+tags:
+    - LikeCoin
 ---
 # Like Button
 
