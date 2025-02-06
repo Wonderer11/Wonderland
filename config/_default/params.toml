@@ -56,6 +56,9 @@ limit = 10
 [[widgets.page]]
 type = "toc"
 
+[[widgets.page]]
+type = "LikeCoin"
+
 [opengraph.twitter]
 site = ""
 card = "summary_large_image"
