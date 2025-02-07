@@ -8,11 +8,8 @@
                 {{- $params := default dict .params -}}
 
                 {{ partial (printf "widget/%s" .type) (dict "Context" $context "Params" $params) }}
-				
             {{ else }}
-			
                 {{ warnf "Widget %s not found" .type }}
-				
             {{ end }}
         {{ end }}
     </aside>
