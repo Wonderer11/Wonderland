@@ -1,47 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>發夢站</title>
-        <link>http://localhost:1313/zh-tw/</link>
-        <description>Recent content on 發夢站</description>
+        <title>廢土 on 發夢站</title>
+        <link>http://localhost:1313/zh-tw/tags/%E5%BB%A2%E5%9C%9F/</link>
+        <description>Recent content in 廢土 on 發夢站</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language><atom:link href="http://localhost:1313/zh-tw/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>LikeCoin 測試 Markdown</title>
-        <link>http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</guid>
-        <description>&lt;h1 id=&#34;like-button&#34;&gt;Like Button
-&lt;/h1&gt;&lt;iframe class=&#34;LikeCoin&#34;
- src=&#34;https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}&#34;
- width=&#34;100%&#34;
- frameborder=0&gt;
-&lt;/iframe&gt;
-&lt;h1 id=&#34;likepay&#34;&gt;Likepay
-&lt;/h1&gt;&lt;iframe class=&#34;Likepay&#34;
- src=&#34;https://like.co/h47388304&#34;
- width=&#34;100%&#34;
- frameborder=0&gt;
-&lt;/iframe&gt;
-&lt;iframe class=&#34;Likepay 10&#34;
- src=&#34;https://like.co/in/widget/pay?to=h47388304&amp;amount=10&#34;
- width=&#34;100%&#34;
- frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-</description>
-        </item>
-        <item>
+        <language>zh-tw</language><atom:link href="http://localhost:1313/zh-tw/tags/%E5%BB%A2%E5%9C%9F/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>生存倒數</title>
         <link>http://localhost:1313/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</guid>
-        <description>&lt;h1 id=&#34;設定&#34;&gt;設定
-&lt;/h1&gt;&lt;p&gt;任務等級：探索級，地獄級&lt;/p&gt;
+        <description>&lt;p&gt;任務等級：探索級，地獄級&lt;/p&gt;
 &lt;p&gt;城市地區：森林地區，未知領域&lt;/p&gt;
 &lt;p&gt;實驗體所處的實驗室疑似屬於某個大型基地，由于電量不足、日久失修很多設施已經荒廢，例如：通往其他地區的閘門。 即使是保有能源的地區也不等於安全，走廊上不時出現闖進來的野生生物（也許不完全是野生，實現體在驅趕這些生物時發現掛在他們脖子上的名牌）如果要探索更遙遠的地區，至少要先修好實驗室的供電和保安設施，讓自己在遇到危險時也有安全的退路，實驗體這樣想著，開始了他的冒險。&lt;/p&gt;
-&lt;h2 id=&#34;第n號實驗體&#34;&gt;第N號實驗體
-&lt;/h2&gt;&lt;p&gt;姓名：／&lt;/p&gt;
+&lt;p&gt;第N號實驗體&lt;/p&gt;
+&lt;p&gt;姓名：／&lt;/p&gt;
 &lt;p&gt;性別：沒有性徵（上半身平坦，下半身除了泌尿系統和肛門外什麼都沒有）&lt;/p&gt;
 &lt;p&gt;身高：約1.6米&lt;/p&gt;
 &lt;p&gt;體重：約50kg&lt;/p&gt;
@@ -145,35 +119,6 @@
 &lt;p&gt;我在害怕，從此以後我跟嗷嗚再也沒有一個庇護我們的安全區，從此以後我們必須在未知的環境獨自生存，但…&lt;/p&gt;
 &lt;p&gt;「永別了，騙子博士。」&lt;/p&gt;
 &lt;p&gt;我重踏油門，奔向無悔的未來。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>搜尋</title>
-        <link>http://localhost:1313/zh-tw/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-tw/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>檔案</title>
-        <link>http://localhost:1313/zh-tw/archives/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-tw/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>關於</title>
-        <link>http://localhost:1313/zh-tw/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/zh-tw/about/</guid>
-        <description>&lt;h1 id=&#34;發夢站&#34;&gt;發夢站
-&lt;/h1&gt;&lt;p&gt;這個網站是用 Hugo 建立的，Hugo 是&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apache License 2.0&lt;/a&gt; 許可下的開源靜態網站生成器。&lt;/p&gt;
-&lt;h1 id=&#34;發夢家&#34;&gt;發夢家
-&lt;/h1&gt;&lt;p&gt;Hello World!&lt;/p&gt;
 </description>
         </item>
         

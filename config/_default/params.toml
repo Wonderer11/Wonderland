@@ -28,7 +28,7 @@ readingTime = true
 toc = true
 
 [article.license]
-enabled = true
+enabled = false
 default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
@@ -57,6 +57,9 @@ limit = 10
 type = "toc"
 
 [[widgets.page]]
+type = "page-info"
+
+[[widgets.page]]
 type = "LikeCoin"
 
 [opengraph.twitter]
@@ -80,7 +83,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
