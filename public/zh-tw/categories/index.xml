@@ -13,6 +13,14 @@
         <guid>http://localhost:1313/zh-tw/categories/test/</guid>
         <description></description>
         </item>
+        <item>
+        <title>原創</title>
+        <link>http://localhost:1313/zh-tw/categories/%E5%8E%9F%E5%89%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/zh-tw/categories/%E5%8E%9F%E5%89%B5/</guid>
+        <description></description>
+        </item>
         
     </channel>
 </rss>

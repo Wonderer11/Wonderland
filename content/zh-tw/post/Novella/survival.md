@@ -3,6 +3,7 @@ title: '生存倒數'
 description: 這是我用以參加Penana創作挑戰「歐圖伊斯坦－末日探索挑戰」的作品
 image:
 categories:
+  - 原創
 tags:
   - 廢土
 links:

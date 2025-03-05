@@ -140,6 +140,8 @@
   </url><url>
     <loc>http://localhost:1313/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</loc>
   </url><url>
+    <loc>http://localhost:1313/zh-tw/categories/%E5%8E%9F%E5%89%B5/</loc>
+  </url><url>
     <loc>http://localhost:1313/zh-tw/gallery/</loc>
     <xhtml:link
                 rel="alternate"
