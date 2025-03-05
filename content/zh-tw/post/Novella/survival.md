@@ -3,14 +3,18 @@ title: '生存倒數'
 description: 這是我用以參加Penana創作挑戰「歐圖伊斯坦－末日探索挑戰」的作品
 image:
 categories:
-tags: 
-  - "廢土"
+tags:
+  - 廢土
 links:
-  - title: 創作挑戰規則
+  - title: 歐圖伊斯坦－末日探索挑戰規則
     description: 主題
     website: https://www.penana.com/story/148839/%E6%AD%90%E5%9C%96%E4%BC%8A%E6%96%AF%E5%9D%A6-%E6%9C%AB%E6%97%A5%E4%BB%BB%E5%8B%99%E4%B8%BB%E9%A1%8C/issue/30
     image: https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262
-  - title: Penana
+  - title: 歐圖伊斯坦－末日探索挑戰
+    description: 作品
+    website: https://www.penana.com/story/148743/%E6%AD%90%E5%9C%96%E4%BC%8A%E6%96%AF%E5%9D%A6-%E6%9C%AB%E6%97%A5%E6%8E%A2%E7%B4%A2%E6%8C%91%E6%88%B0/issue/37
+    image: https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262
+  - title: 歐圖伊斯坦－末日探索挑戰備份
     description: 作品
     website: https://www.penana.com/story/92086/%E8%85%A6%E6%B4%9E%E9%9B%86/issue/3
     image: https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262

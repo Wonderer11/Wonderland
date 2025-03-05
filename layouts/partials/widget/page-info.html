@@ -1,0 +1,32 @@
+{{- $context := .Context -}}
+
+{{ if .Context.Params.Categories }}
+<section class="widget tagCloud">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "categories" }}
+    </div>
+    <h2 class="widget-title section-title">{{ T "widget.categoriesCloud.title" }}</h2>
+	
+    <section class="article-category">
+        {{ range ( .Context.GetTerms "categories") }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+		{{ end }}
+    </section>
+</section>
+{{ end }}
+
+{{ if .Context.Params.Tags }}
+<section class="widget tagCloud">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "tag" }}
+    </div>
+    <h2 class="widget-title section-title">{{ T "widget.tagCloud.title" }}</h2>
+
+    <section class="article-tags">
+        {{ range ( .Context.GetTerms "tags") }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    </section>
+	
+</section>
+{{ end }}
