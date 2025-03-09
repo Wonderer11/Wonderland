@@ -123,6 +123,8 @@
                 href="http://localhost:1313/zh-tw/categories/test/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-tw/categories/%E5%88%86%E6%9E%90/</loc>
+  </url><url>
     <loc>http://localhost:1313/zh-tw/post/</loc>
     <xhtml:link
                 rel="alternate"
