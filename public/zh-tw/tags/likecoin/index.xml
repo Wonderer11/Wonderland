@@ -63,14 +63,7 @@
 &lt;a class=&#34;link&#34; href=&#34;https://github.com/Wonderer11/Wonderland/blob/main/content/en/post/Blockchain/Testing%20LikeCoin.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/Wonderer11/Wonderland/blob/main/content/en/post/Blockchain/Testing%20LikeCoin.md&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;此外，創作者通常會將賺取的 Like Token 兌換成現金或其他價值更高的虛擬貨幣。儘管 LikeCoin 提供委託給驗證人以賺取更多 Like Token 的選項，但在 Like Token 不保值的情況下，資金外流的情況將會日益嚴重。如果 LikeCoin 提供使用 Like Pay 直接贊助作者的選項，讀者需先經由交易所購入 Like Token ，這將形成穩定的買盤，平衡供需關係，進而穩定其價格，減少 Like Token 在交易所價格波動對創作者收入的影響。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;p&gt;{{ $image := .Resources.Get &amp;ldquo;image.jpg&amp;rdquo; }}&lt;/p&gt;
 </description>
         </item>
         
