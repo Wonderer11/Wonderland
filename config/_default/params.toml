@@ -4,7 +4,8 @@ mainSections = ["post"]
 rssFullContent = true
 favicon = "/favicon.png"
 
-likerID = "h47388304"
+# LikeCoin
+LikerID = "h47388304"
 
 [footer]
 since = 2020
