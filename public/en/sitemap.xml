@@ -2,208 +2,208 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:1313/subfolder/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/"
+                href="http://localhost:1313/subfolder/zh-hk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/"
+                href="http://localhost:1313/subfolder/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/"
+                href="http://localhost:1313/subfolder/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>http://localhost:1313/subfolder/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/about/"
+                href="http://localhost:1313/subfolder/zh-hk/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/about/"
+                href="http://localhost:1313/subfolder/zh-tw/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/about/"
+                href="http://localhost:1313/subfolder/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/archives/</loc>
+    <loc>http://localhost:1313/subfolder/en/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/archives/"
+                href="http://localhost:1313/subfolder/zh-hk/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/archives/"
+                href="http://localhost:1313/subfolder/zh-tw/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/archives/"
+                href="http://localhost:1313/subfolder/en/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/</loc>
+    <loc>http://localhost:1313/subfolder/en/post/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/post/"
+                href="http://localhost:1313/subfolder/zh-hk/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/post/"
+                href="http://localhost:1313/subfolder/zh-tw/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/post/"
+                href="http://localhost:1313/subfolder/en/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://localhost:1313/subfolder/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/categories/"
+                href="http://localhost:1313/subfolder/zh-hk/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/categories/"
+                href="http://localhost:1313/subfolder/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/subfolder/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/gallery/</loc>
+    <loc>http://localhost:1313/subfolder/en/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/gallery/"
+                href="http://localhost:1313/subfolder/zh-hk/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/gallery/"
+                href="http://localhost:1313/subfolder/zh-tw/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/gallery/"
+                href="http://localhost:1313/subfolder/en/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/likecoin/</loc>
+    <loc>http://localhost:1313/subfolder/en/tags/likecoin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/likecoin/"
+                href="http://localhost:1313/subfolder/zh-hk/tags/likecoin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/likecoin/"
+                href="http://localhost:1313/subfolder/zh-tw/tags/likecoin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/tags/likecoin/"
+                href="http://localhost:1313/subfolder/en/tags/likecoin/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/p/likecoin-test-markdown/</loc>
+    <loc>http://localhost:1313/subfolder/en/p/likecoin-test-markdown/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
+                href="http://localhost:1313/subfolder/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
+                href="http://localhost:1313/subfolder/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/p/likecoin-test-markdown/"
+                href="http://localhost:1313/subfolder/en/p/likecoin-test-markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/page/</loc>
+    <loc>http://localhost:1313/subfolder/en/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/page/"
+                href="http://localhost:1313/subfolder/zh-hk/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/page/"
+                href="http://localhost:1313/subfolder/zh-tw/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/page/"
+                href="http://localhost:1313/subfolder/en/page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/search/</loc>
+    <loc>http://localhost:1313/subfolder/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/search/"
+                href="http://localhost:1313/subfolder/zh-hk/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/search/"
+                href="http://localhost:1313/subfolder/zh-tw/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/search/"
+                href="http://localhost:1313/subfolder/en/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://localhost:1313/subfolder/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/"
+                href="http://localhost:1313/subfolder/zh-hk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/"
+                href="http://localhost:1313/subfolder/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:1313/subfolder/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/test/</loc>
+    <loc>http://localhost:1313/subfolder/en/categories/test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/categories/test/"
+                href="http://localhost:1313/subfolder/zh-hk/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/categories/test/"
+                href="http://localhost:1313/subfolder/zh-tw/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/categories/test/"
+                href="http://localhost:1313/subfolder/en/categories/test/"
                 />
   </url>
 </urlset>

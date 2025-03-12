@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>廢土 on 發夢站</title>
-        <link>http://localhost:1313/zh-tw/tags/%E5%BB%A2%E5%9C%9F/</link>
+        <link>http://localhost:1313/subfolder/zh-tw/tags/%E5%BB%A2%E5%9C%9F/</link>
         <description>Recent content in 廢土 on 發夢站</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language><atom:link href="http://localhost:1313/zh-tw/tags/%E5%BB%A2%E5%9C%9F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-tw</language><atom:link href="http://localhost:1313/subfolder/zh-tw/tags/%E5%BB%A2%E5%9C%9F/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>生存倒數</title>
-        <link>http://localhost:1313/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</link>
+        <link>http://localhost:1313/subfolder/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</guid>
+        <guid>http://localhost:1313/subfolder/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</guid>
         <description>&lt;h1 id=&#34;設定&#34;&gt;設定
 &lt;/h1&gt;&lt;p&gt;任務等級：探索級，地獄級&lt;/p&gt;
 &lt;p&gt;城市地區：森林地區，未知領域&lt;/p&gt;

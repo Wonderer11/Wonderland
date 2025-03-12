@@ -1,4 +1,4 @@
-baseURL: 'https://example.org/'
+baseURL: 'https://example.org/subfolder'
 theme: 'hugo-theme-stack-3.30.0'
 
 defaultContentLanguage: en
