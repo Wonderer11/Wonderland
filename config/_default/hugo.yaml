@@ -1,4 +1,4 @@
-baseURL: 'https://wonderer11.github.io/Wonderland/'
+baseURL: 'https://wonderer11.github.io/'
 theme: 'hugo-theme-stack-3.30.0'
 
 defaultContentLanguage: en
