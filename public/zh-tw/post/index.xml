@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>文章 on 發夢站</title>
+        <link>http://localhost:1313/Wonderland/zh-tw/post/</link>
+        <description>Recent content in 文章 on 發夢站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-tw</language><atom:link href="http://localhost:1313/Wonderland/zh-tw/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>LikeCoin 測試 Markdown</title>
+        <link>http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</guid>
+        <description>&lt;h1 id=&#34;like-button&#34;&gt;Like Button
+&lt;/h1&gt;&lt;iframe class=&#34;LikeCoin&#34;
+ src=&#34;https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}&#34;
+ width=&#34;100%&#34;
+ frameborder=0&gt;
+&lt;/iframe&gt;
+&lt;h1 id=&#34;likepay&#34;&gt;Likepay
+&lt;/h1&gt;&lt;iframe class=&#34;Likepay&#34;
+ src=&#34;https://like.co/h47388304&#34;
+ width=&#34;100%&#34;
+ frameborder=0&gt;
+&lt;/iframe&gt;
+&lt;iframe class=&#34;Likepay 10&#34;
+ src=&#34;https://like.co/in/widget/pay?to=h47388304&amp;amount=10&#34;
+ width=&#34;100%&#34;
+ frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+</description>
+        </item>
+        <item>
+        <title>LikeCoin 經濟模式透明度與創作者收入穩定性探討</title>
+        <link>http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E7%B6%93%E6%BF%9F%E6%A8%A1%E5%BC%8F%E9%80%8F%E6%98%8E%E5%BA%A6%E8%88%87%E5%89%B5%E4%BD%9C%E8%80%85%E6%94%B6%E5%85%A5%E7%A9%A9%E5%AE%9A%E6%80%A7%E6%8E%A2%E8%A8%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E7%B6%93%E6%BF%9F%E6%A8%A1%E5%BC%8F%E9%80%8F%E6%98%8E%E5%BA%A6%E8%88%87%E5%89%B5%E4%BD%9C%E8%80%85%E6%94%B6%E5%85%A5%E7%A9%A9%E5%AE%9A%E6%80%A7%E6%8E%A2%E8%A8%8E/</guid>
+        <description>&lt;p&gt;LikeCoin 作為一個旨在支持創作者的區塊鏈項目，其經濟模式的設計與創作者收入息息相關。儘管有人認為 LikeCoin 的重心已轉向 Web3 出版和 NFT 電子書，但 LikeCoin Button 及其相關應用仍然是許多個人 網站創作者的主要收入來源。然而，目前 LikeCoin 經濟模式的透明度和創作者收入穩定性存在一些值得關注的問題。&lt;/p&gt;
+&lt;h1 id=&#34;透明度問題黑箱狀態下的創作基金分配數據&#34;&gt;透明度問題：黑箱狀態下的創作基金分配數據
+&lt;/h1&gt;&lt;p&gt;首先，LikeCoin Button 作為創作者賺取 LikeCoin 的主要途徑，其收益卻不穩定，波動幅度很大。&lt;/p&gt;
+&lt;p&gt;根據官方說明，創作者通過 LikeCoin Button 賺取的收入主要來自讚賞公民的委託回報和「創作基金」的分配。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.like.co/zh/general-guides/dapp/civic-liker/creators-fund&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://docs.like.co/zh/general-guides/dapp/civic-liker/creators-fund&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然而，這些關鍵數據目前處於黑箱狀態。創作基金的現況報告自 2023 年 6 月後便未更新，用戶鑫大叔製作的創作基金排行榜也停止運作。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.like.co/zh/category/%e7%a4%be%e7%be%a4/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://blog.like.co/zh/category/%e7%a4%be%e7%be%a4/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://lookerstudio.google.com/reporting/46dfd4ba-e742-4d0a-8b50-d56036e32cf5/page/p_b5fksgpftc?s=mn4s-X-VN4w&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://lookerstudio.google.com/reporting/46dfd4ba-e742-4d0a-8b50-d56036e32cf5/page/p_b5fksgpftc?s=mn4s-X-VN4w&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;這種資訊不透明的情況使得用戶難以掌握最新的分配情況，也讓創作者難以準確預估收入，進而影響其創作意願。這種情況早在 2020 年就已受到批評，但至今仍未改善。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://matters.town/a/z0v2s2mco7rw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://matters.town/a/z0v2s2mco7rw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;為了促進創作生態的健康發展，公開透明的數據至關重要。我希望 LikeCoin 能在 Liker.Land app 或其他官方平台上提供詳細、及時的資訊，以便用戶隨時查閱。&lt;/p&gt;
+&lt;h1 id=&#34;收入穩定性問題like-token-價格波動與-like-pay-的應用限制&#34;&gt;收入穩定性問題：Like Token 價格波動與 Like Pay 的應用限制
+&lt;/h1&gt;&lt;p&gt;除了資訊不透明外，創作者的收入還受到 Like Token 在交易所價格波動的影響，這增加了創作者收入的不穩定性。&lt;/p&gt;
+&lt;p&gt;為了提高創作者收入的穩定性，我希望 LikeCoin 可以考慮提供使用 Like Pay 賺取固定數量 Like Token 的選項，類似於 Vtuber 的抖內/贊助收入。這樣可以降低創作者的風險，吸引更多創作者加入 LikeCoin 生態。然而，目前 Like Pay 的應用範圍有限，僅能在 Matters 等特定創作平台上使用，無法像 LikeCoin Button 一樣在個人網站上廣泛使用。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.like.co/developer/like-pay/web-widget/reference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://docs.like.co/developer/like-pay/web-widget/reference&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此外，創作者通常會將賺取的 Like Token 兌換成現金或其他價值更高的虛擬貨幣。儘管 LikeCoin 提供委託給驗證人以賺取更多 Like Token 的選項，但在 Like Token 不保值的情況下，資金外流的情況將會日益嚴重。如果 LikeCoin 提供使用 Like Pay 直接贊助作者的選項，讀者需先經由交易所購入 Like Token ，這將形成穩定的買盤，平衡供需關係，進而穩定其價格，減少 Like Token 在交易所價格波動對創作者收入的影響。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/Wonderland/image.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
