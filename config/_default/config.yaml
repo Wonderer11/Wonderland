@@ -6,3 +6,7 @@ defaultContentLanguageInSubdir: true
 
 pagination:
     pagerSize: 20
+    
+caches:
+  images:
+    dir: :cacheDir/images
