@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Wonderland</title>
-        <link>http://localhost:1313/subfolder/en/tags/</link>
+        <link>http://localhost:1313/Wonderland/en/tags/</link>
         <description>Recent content in Tags on Wonderland</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/subfolder/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language><atom:link href="http://localhost:1313/Wonderland/en/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LikeCoin</title>
-        <link>http://localhost:1313/subfolder/en/tags/likecoin/</link>
+        <link>http://localhost:1313/Wonderland/en/tags/likecoin/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/subfolder/en/tags/likecoin/</guid>
+        <guid>http://localhost:1313/Wonderland/en/tags/likecoin/</guid>
         <description></description>
         </item>
         

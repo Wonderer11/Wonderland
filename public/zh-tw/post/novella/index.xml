@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>短篇小說 on 發夢站</title>
-        <link>http://localhost:1313/subfolder/zh-tw/post/novella/</link>
+        <link>http://localhost:1313/Wonderland/zh-tw/post/novella/</link>
         <description>Recent content in 短篇小說 on 發夢站</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-tw</language><atom:link href="http://localhost:1313/subfolder/zh-tw/post/novella/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-tw</language><atom:link href="http://localhost:1313/Wonderland/zh-tw/post/novella/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>平行世界裡的中華民國</title>
-        <link>http://localhost:1313/subfolder/zh-tw/p/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C%E8%A3%A1%E7%9A%84%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B/</link>
+        <link>http://localhost:1313/Wonderland/zh-tw/p/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C%E8%A3%A1%E7%9A%84%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/subfolder/zh-tw/p/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C%E8%A3%A1%E7%9A%84%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B/</guid>
+        <guid>http://localhost:1313/Wonderland/zh-tw/p/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C%E8%A3%A1%E7%9A%84%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B/</guid>
         <description>&lt;h1 id=&#34;設定&#34;&gt;設定
 &lt;/h1&gt;&lt;p&gt;首先在剿滅共產黨之後，中華民國會迎來一次重大的政治危機。一來違反美國的調解結果惹來美國政府對中華民國的反感中止援助國民黨重建中國，二來在不明真相的人眼中共產主義還是很有魅力的，武力清剿共產黨不代表不會有人投入共產主義，大大小小的地下共產黨將會成立。&lt;/p&gt;
 &lt;p&gt;國民政府在這種情況下會收緊言論自由，台灣過往的白色恐怖將會降臨，由於世界局勢不同，不會再有另一個李登輝推動國民政府民主化。&lt;/p&gt;
@@ -44,10 +44,10 @@
         </item>
         <item>
         <title>生存倒數</title>
-        <link>http://localhost:1313/subfolder/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</link>
+        <link>http://localhost:1313/Wonderland/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/subfolder/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</guid>
+        <guid>http://localhost:1313/Wonderland/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</guid>
         <description>&lt;h1 id=&#34;設定&#34;&gt;設定
 &lt;/h1&gt;&lt;p&gt;任務等級：探索級，地獄級&lt;/p&gt;
 &lt;p&gt;城市地區：森林地區，未知領域&lt;/p&gt;
