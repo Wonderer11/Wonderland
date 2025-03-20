@@ -5,6 +5,7 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 # LikeCoin
+[LikeCoin]
 LikerID = "h47388304"
 
 [footer]

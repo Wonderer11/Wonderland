@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>LikeCoin on Wonderland</title>
-        <link>http://localhost:1313/Wonderland/en/tags/likecoin/</link>
+        <link>http://localhost:1313/en/tags/likecoin/</link>
         <description>Recent content in LikeCoin on Wonderland</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/Wonderland/en/tags/likecoin/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language><atom:link href="http://localhost:1313/en/tags/likecoin/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LikeCoin Test Markdown</title>
-        <link>http://localhost:1313/Wonderland/en/p/likecoin-test-markdown/</link>
+        <link>http://localhost:1313/en/p/likecoin-test-markdown/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/Wonderland/en/p/likecoin-test-markdown/</guid>
+        <guid>http://localhost:1313/en/p/likecoin-test-markdown/</guid>
         <description>&lt;h1 id=&#34;like-button&#34;&gt;Like Button
 &lt;/h1&gt;&lt;iframe class=&#34;LikeCoin&#34;
  src=&#34;https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}&#34;

@@ -2,222 +2,224 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/</loc>
+    <loc>http://localhost:1313/zh-tw/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/"
+                href="http://localhost:1313/zh-hk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/"
+                href="http://localhost:1313/zh-tw/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/categories/</loc>
+    <loc>http://localhost:1313/zh-tw/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/categories/"
+                href="http://localhost:1313/zh-hk/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/categories/"
+                href="http://localhost:1313/zh-tw/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/tags/likecoin/</loc>
+    <loc>http://localhost:1313/zh-tw/tags/likecoin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/tags/likecoin/"
+                href="http://localhost:1313/en/tags/likecoin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/tags/likecoin/"
+                href="http://localhost:1313/zh-hk/tags/likecoin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/tags/likecoin/"
+                href="http://localhost:1313/zh-tw/tags/likecoin/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</loc>
+    <loc>http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/p/likecoin-test-markdown/"
+                href="http://localhost:1313/en/p/likecoin-test-markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
+                href="http://localhost:1313/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
+                href="http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/p/likecoin-%E7%B6%93%E6%BF%9F%E6%A8%A1%E5%BC%8F%E9%80%8F%E6%98%8E%E5%BA%A6%E8%88%87%E5%89%B5%E4%BD%9C%E8%80%85%E6%94%B6%E5%85%A5%E7%A9%A9%E5%AE%9A%E6%80%A7%E6%8E%A2%E8%A8%8E/</loc>
+    <loc>http://localhost:1313/zh-tw/p/likecoin-%E7%B6%93%E6%BF%9F%E6%A8%A1%E5%BC%8F%E9%80%8F%E6%98%8E%E5%BA%A6%E8%88%87%E5%89%B5%E4%BD%9C%E8%80%85%E6%94%B6%E5%85%A5%E7%A9%A9%E5%AE%9A%E6%80%A7%E6%8E%A2%E8%A8%8E/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/page/</loc>
+    <loc>http://localhost:1313/zh-tw/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/page/"
+                href="http://localhost:1313/en/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/page/"
+                href="http://localhost:1313/zh-hk/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/page/"
+                href="http://localhost:1313/zh-tw/page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/tags/</loc>
+    <loc>http://localhost:1313/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/tags/"
+                href="http://localhost:1313/zh-hk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/tags/"
+                href="http://localhost:1313/zh-tw/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/categories/test/</loc>
+    <loc>http://localhost:1313/zh-tw/categories/test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/categories/test/"
+                href="http://localhost:1313/en/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/categories/test/"
+                href="http://localhost:1313/zh-hk/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/categories/test/"
+                href="http://localhost:1313/zh-tw/categories/test/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/categories/%E5%88%86%E6%9E%90/</loc>
+    <loc>http://localhost:1313/zh-tw/categories/%E5%88%86%E6%9E%90/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/post/</loc>
+    <loc>http://localhost:1313/zh-tw/post/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/post/"
+                href="http://localhost:1313/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/post/"
+                href="http://localhost:1313/zh-hk/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/post/"
+                href="http://localhost:1313/zh-tw/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/p/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C%E8%A3%A1%E7%9A%84%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B/</loc>
+    <loc>http://localhost:1313/zh-tw/p/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C%E8%A3%A1%E7%9A%84%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</loc>
+    <loc>http://localhost:1313/zh-tw/p/%E7%94%9F%E5%AD%98%E5%80%92%E6%95%B8/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/categories/%E5%8E%9F%E5%89%B5/</loc>
+    <loc>http://localhost:1313/zh-tw/categories/%E5%8E%9F%E5%89%B5/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/gallery/</loc>
+    <loc>http://localhost:1313/zh-tw/post/blockchain/</loc>
+  </url><url>
+    <loc>http://localhost:1313/zh-tw/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/gallery/"
+                href="http://localhost:1313/en/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/gallery/"
+                href="http://localhost:1313/zh-hk/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/gallery/"
+                href="http://localhost:1313/zh-tw/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/post/novella/</loc>
+    <loc>http://localhost:1313/zh-tw/post/novella/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/search/</loc>
+    <loc>http://localhost:1313/zh-tw/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/search/"
+                href="http://localhost:1313/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/search/"
+                href="http://localhost:1313/zh-hk/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/search/"
+                href="http://localhost:1313/zh-tw/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/tags/%E5%BB%A2%E5%9C%9F/</loc>
+    <loc>http://localhost:1313/zh-tw/tags/%E5%BB%A2%E5%9C%9F/</loc>
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/archives/</loc>
+    <loc>http://localhost:1313/zh-tw/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/archives/"
+                href="http://localhost:1313/en/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/archives/"
+                href="http://localhost:1313/zh-hk/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/archives/"
+                href="http://localhost:1313/zh-tw/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Wonderland/zh-tw/about/</loc>
+    <loc>http://localhost:1313/zh-tw/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Wonderland/en/about/"
+                href="http://localhost:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="http://localhost:1313/Wonderland/zh-hk/about/"
+                href="http://localhost:1313/zh-hk/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/Wonderland/zh-tw/about/"
+                href="http://localhost:1313/zh-tw/about/"
                 />
   </url>
 </urlset>
