@@ -19,7 +19,7 @@ LikeCoin 作為一個旨在支持創作者的區塊鏈項目，其經濟模式�
 
 # 透明度問題：黑箱狀態下的創作基金分配數據
 
-首先，LikeCoin Button 作為創作者賺取 LikeCoin 的主要途徑，其收益卻不穩定，波動幅度很大。
+首先，LikeCoin Button 作為創作者賺取 Like Token 的主要途徑，其收益卻不穩定，波動幅度很大。
 
 根據官方說明，創作者通過 LikeCoin Button 賺取的收入主要來自讚賞公民的委託回報和「創作基金」的分配。
 
@@ -39,12 +39,12 @@ https://matters.town/a/z0v2s2mco7rw
 
 # 收入穩定性問題：Like Token 價格波動與 Like Pay 的應用限制
 
-除了資訊不透明外，創作者的收入還受到 Like Token 在交易所價格波動的影響，這增加了創作者收入的不穩定性。
+除了資訊不透明外，創作者的收入還受到 Like Token 在交易所價格波動的影響，這增加了創作者收入的不穩定性。此外，創作者普遍傾向將 Like Token 兌換為現金或其他價值更高的虛擬貨幣，導致資金外流。儘管 LikeCoin 提供將 Like Token 委託給驗證人以賺取更多 Like Token 的選項，但在 Like Token 價格不穩定的情況下，創作者更傾向兌換 Like Token ，進而加劇幣值下跌，形成資金持續外流的惡性循環。
 
-為了提高創作者收入的穩定性，我希望 LikeCoin 可以考慮提供使用 Like Pay 賺取固定數量 Like Token 的選項，類似於 Vtuber 的抖內/贊助收入。這樣可以降低創作者的風險，吸引更多創作者加入 LikeCoin 生態。然而，目前 Like Pay 的應用範圍有限，僅能在 Matters 等特定創作平台上使用，無法像 LikeCoin Button 一樣在個人網站上廣泛使用。
-
-https://docs.like.co/developer/like-pay/web-widget/reference
-
-此外，創作者通常會將賺取的 Like Token 兌換成現金或其他價值更高的虛擬貨幣。儘管 LikeCoin 提供委託給驗證人以賺取更多 Like Token 的選項，但在 Like Token 不保值的情況下，資金外流的情況將會日益嚴重。如果 LikeCoin 提供使用 Like Pay 直接贊助作者的選項，讀者需先經由交易所購入 Like Token ，這將形成穩定的買盤，平衡供需關係，進而穩定其價格，減少 Like Token 在交易所價格波動對創作者收入的影響。
+為了提高創作者收入的穩定性，我希望 LikeCoin 可以參考 Vtuber 的抖內/贊助模式，開發使用 Like Pay 賺取固定數量 Like Token 的插件，這樣可以降低創作者的風險，吸引更多創作者加入 LikeCoin 生態。如果 LikeCoin 提供使用 Like Pay 直接贊助作者的選項，讀者需先經由交易所購入 Like Token ，這將形成穩定的買盤，平衡供需關係，進而穩定其價格，減少 Like Token 在交易所價格波動對創作者收入的影響。
 
 ![](image.svg)
+
+然而，目前 Like Pay 的應用範圍有限，僅能在 Matters 等特定創作平台上使用，無法像 LikeCoin Button 一樣在個人網站上廣泛使用。
+
+https://docs.like.co/developer/like-pay/web-widget/reference
