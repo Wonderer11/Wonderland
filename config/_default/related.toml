@@ -1,6 +1,6 @@
 # Related contents configuration
 includeNewer = true
-threshold = 60
+threshold = 1
 toLower = false
 
 [[indices]]
