@@ -7,9 +7,14 @@ tags:
     - LikeCoin
 ---
 # Like Button
-
 <iframe class="LikeCoin"
  src="https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}"
+ width="100%"
+ frameborder=0>
+</iframe>
+
+<iframe class="LikeCoin"
+ src="https://button.like.co/in/embed/{{ .Site.Params.LikerID }}/button?referrer={{ .Permalink }}"
  width="100%"
  frameborder=0>
 </iframe>
