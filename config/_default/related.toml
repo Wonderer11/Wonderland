@@ -1,12 +1,12 @@
 # Related contents configuration
 includeNewer = true
-threshold = 10
+threshold = 20
 toLower = false
 
 [[indices]]
 name = "tags"
-weight = 100
+weight = 10
 
 [[indices]]
 name = "categories"
-weight = 200
+weight = 10

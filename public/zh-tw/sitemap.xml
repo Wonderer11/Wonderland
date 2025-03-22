@@ -36,6 +36,23 @@
                 href="http://localhost:1313/zh-tw/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-tw/tags/like-pay/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/like-pay/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/like-pay/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/like-pay/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-tw/tags/likecoin/</loc>
     <xhtml:link
                 rel="alternate"
@@ -51,6 +68,23 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="http://localhost:1313/zh-tw/tags/likecoin/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-tw/tags/likecoin-button/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/likecoin-button/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/likecoin-button/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/likecoin-button/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/</loc>

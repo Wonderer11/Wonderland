@@ -6,11 +6,27 @@
         <description>Recent content in Tags on 發夢站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language><atom:link href="http://localhost:1313/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Like Pay</title>
+        <link>http://localhost:1313/zh-tw/tags/like-pay/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/zh-tw/tags/like-pay/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>LikeCoin</title>
         <link>http://localhost:1313/zh-tw/tags/likecoin/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/zh-tw/tags/likecoin/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>LikeCoin Button</title>
+        <link>http://localhost:1313/zh-tw/tags/likecoin-button/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/zh-tw/tags/likecoin-button/</guid>
         <description></description>
         </item>
         <item>

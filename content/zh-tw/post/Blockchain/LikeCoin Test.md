@@ -2,9 +2,11 @@
 title: LikeCoin 測試 Markdown
 description: 這是測試LikeCoin插件的頁面。
 categories:
-    - Test
+  - Test
 tags:
-    - LikeCoin
+  - LikeCoin
+  - LikeCoin Button
+  - Like Pay
 ---
 # Like Button
 <iframe class="LikeCoin"
@@ -20,13 +22,13 @@ tags:
 </iframe>
 
 # Likepay
-<iframe class="Likepay"
+<iframe class="Like Pay"
  src="https://like.co/h47388304"
  width="100%"
  frameborder=0>
 </iframe>
 
-<iframe class="Likepay 10"
+<iframe class="Like Pay 10"
  src="https://like.co/in/widget/pay?to=h47388304&amount=10"
  width="100%"
  frameborder="0">

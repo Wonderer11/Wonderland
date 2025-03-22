@@ -6,6 +6,8 @@ categories:
   - 分析
 tags:
   - LikeCoin
+  - LikeCoin Button
+  - Like Pay
 draft: false
 comments: false
 ---
