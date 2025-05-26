@@ -10,11 +10,11 @@ links:
   - title: Penana
     description: 作品
     website: https://www.penana.com/story/92086/%E8%85%A6%E6%B4%9E%E9%9B%86/issue/1
-    image: 
+    image: https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262
   - title: 在主角/反派身邊如何求生
     description: 作品
     website: https://www.penana.com/story/155918/%E5%9C%A8%E4%B8%BB%E8%A7%92-%E5%8F%8D%E6%B4%BE%E8%BA%AB%E9%82%8A%E5%A6%82%E4%BD%95%E6%B1%82%E7%94%9F/issue/8
-    image: 
+    image: https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262
 draft: false
 comments: false
 ---
