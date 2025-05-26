@@ -29,7 +29,7 @@ comments: false
 ---
 
 # 發夢站
-呢個網站係用 Hugo 建立嘅，Hugo 係[Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) 許可下的開源靜態網站生成器。
+呢個網站係用 Hugo 建立嘅，Hugo 係[Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) 授權嘅開源靜態網站生成器。
 
 # 發夢家
 Hello World!

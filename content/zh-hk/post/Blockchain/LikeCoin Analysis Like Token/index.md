@@ -11,13 +11,13 @@ tags:
 draft: false
 comments: false
 ---
-LikeCoin 作為一個旨在支持創作者的區塊鏈項目，其經濟模式的設計與創作者收入息息相關。儘管有人認為 LikeCoin 的重心已轉向 Web3 出版和 NFT 電子書，但 LikeCoin Button 及其相關應用仍然是許多個人網站創作者的主要收入來源。然而，目前 LikeCoin 經濟模式的透明度和創作者收入穩定性存在一些值得關注的問題。
+LikeCoin 作為一個旨在支持創作者嘅區塊鏈項目，佢嘅經濟模式設計同創作者收入息息相關。雖然有人覺得 LikeCoin 的重心轉咗去 Web3 出版同 NFT 電子書，但 LikeCoin Button 同埋相關應用依然係許多個人網站創作者嘅主要收入來源。不過，目前 LikeCoin 嘅經濟模式透明度同創作者收入穩定性都有啲值得關注嘅問題。
 
-# 透明度問題：黑箱狀態下的創作基金分配數據
+# 透明度問題：黑箱狀態下嘅創作基金分配數據
 
-首先，LikeCoin Button 作為創作者賺取 Like Token 的主要途徑，其收益卻不穩定，波動幅度很大。
+首先，LikeCoin Button 作為創作者賺取 Like Token 嘅主要途徑，但係佢嘅收益唔穩定，波動幅度好大。
 
-根據官方說明，創作者通過 LikeCoin Button 賺取的收入主要來自讚賞公民的委託回報和「創作基金」的分配 [^LikeCoin Docs]。
+根據官方說明，創作者通過 LikeCoin Button 賺取嘅收入主要來自讚賞公民嘅委託回報同「創作基金」嘅分配 [^LikeCoin Docs]。
 
 然而，這些關鍵數據目前處於黑箱狀態。創作基金的現況報告自 2023 年 6 月後便未更新 [^LikeCoin Report]，用戶鑫大叔製作的創作基金排行榜也停止運作 [^User Report]。
 
