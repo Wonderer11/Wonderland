@@ -37,7 +37,7 @@ LikeCoin 作為一個旨在支持創作者的區塊鏈項目，其經濟模式�
 
 然而，目前 Like Pay 的應用範圍有限，僅能在 Matters 等特定創作平台上使用，無法像 LikeCoin Button 一樣在個人網站上廣泛使用。
 
-![](./post/Blockchain/LikeCoin Test.md)
+![](content/zh-tw/post/Blockchain/LikeCoin Test.md)
 
 > While this feature is being used in production by our partners, many of the configurations needed are not made public accessible yet. [^Like Pay]
 
