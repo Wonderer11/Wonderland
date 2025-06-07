@@ -304,7 +304,12 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#like-button">Like Button</a></li>
+    <li><a href="#like-button">Like Button</a>
+      <ol>
+        <li><a href="#iframe">Iframe</a></li>
+        <li><a href="#likecoin-button-sdk-demo">LikeCoin button SDK demo</a></li>
+      </ol>
+    </li>
     <li><a href="#likepay">Likepay</a></li>
   </ol>
 </nav>
@@ -438,7 +443,8 @@
     
     
     <h1 id="like-button">Like Button
-</h1><div class="highlight"><div class="chroma">
+</h1><h2 id="iframe">Iframe
+</h2><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -480,6 +486,49 @@
  width="100%"
  frameborder=0>
 </iframe>
+<h2 id="likecoin-button-sdk-demo">LikeCoin button SDK demo
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;div class=&#34;likecoin-embed likecoin-button&#34;
+</span></span><span class="line"><span class="cl"> data-liker-id=&#34;h47388304&#34;
+</span></span><span class="line"><span class="cl"> data-href=&#34;https://docs.like.co/developer/likecoin-button/&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://static.like.co/sdk/v1/button.js&#34;&gt;&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="likecoin-embed likecoin-button"
+ data-liker-id="h47388304"
+ data-href="https://docs.like.co/developer/likecoin-button/">
+</div>
+<script src="https://static.like.co/sdk/v1/button.js"></script>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;div class=&#34;likecoin-embed likecoin-button&#34;
+</span></span><span class="line"><span class="cl"> data-liker-id= {{ .Site.Params.LikerID }}
+</span></span><span class="line"><span class="cl"> data-href=&#34;https://docs.like.co/developer/likecoin-button/&#34;&gt;
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span><span class="line"><span class="cl">&lt;script src=&#34;https://static.like.co/sdk/v1/button.js&#34;&gt;&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="likecoin-embed likecoin-button"
+ data-liker-id= {{ .Site.Params.LikerID }}
+ data-href="https://docs.like.co/developer/likecoin-button/">
+</div>
+<script src="https://static.like.co/sdk/v1/button.js"></script>
 <h1 id="likepay">Likepay
 </h1><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">

@@ -9,6 +9,8 @@ tags:
   - Like Pay
 ---
 # Like Button
+
+## Iframe
 ```
 <iframe class="LikeCoin"
  src="https://button.like.co/in/embed/h47388304/button?referrer={{ .Permalink }}"
@@ -36,6 +38,35 @@ tags:
  width="100%"
  frameborder=0>
 </iframe>
+
+## LikeCoin button SDK demo
+```
+<div class="likecoin-embed likecoin-button"
+ data-liker-id="h47388304"
+ data-href="https://docs.like.co/developer/likecoin-button/">
+</div>
+<script src="https://static.like.co/sdk/v1/button.js"></script>
+```
+
+<div class="likecoin-embed likecoin-button"
+ data-liker-id="h47388304"
+ data-href="https://docs.like.co/developer/likecoin-button/">
+</div>
+<script src="https://static.like.co/sdk/v1/button.js"></script>
+
+```
+<div class="likecoin-embed likecoin-button"
+ data-liker-id= {{ .Site.Params.LikerID }}
+ data-href="https://docs.like.co/developer/likecoin-button/">
+</div>
+<script src="https://static.like.co/sdk/v1/button.js"></script>
+```
+
+<div class="likecoin-embed likecoin-button"
+ data-liker-id= {{ .Site.Params.LikerID }}
+ data-href="https://docs.like.co/developer/likecoin-button/">
+</div>
+<script src="https://static.like.co/sdk/v1/button.js"></script>
 
 # Likepay
 ```
