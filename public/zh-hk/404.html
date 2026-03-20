@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/zh-hk/404.html'>
 
-<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="404 Page not found">
+<link rel="stylesheet" href="/scss/style.min.86591c898bd806857815fbb8c47e8d3fed97c133b78e83d9bfc27b164dd0aa2b.css"><meta property='og:title' content="404 Page not found">
 <meta property='og:description' content="用愛發夢">
 <meta property='og:url' content='http://localhost:1313/zh-hk/404.html'>
 <meta property='og:site_name' content='發夢站'>
@@ -56,7 +56,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu_33fe002b98f0495f.png" width="300"
+                        <img src="/img/avatar_hu_92f8a736ba0444d1.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -272,7 +272,7 @@
 
 
 
-                        <span>暗黑模式</span>
+                        <span>深色模式</span>
                     </li>
                 
             </ol>
@@ -282,7 +282,7 @@
 
             <main class="main full-width">
     <div class="not-found-card">
-        <h1 class="article-title">404 Not Found</h1>
+        <h1 class="article-title">Not Found</h1>
         <h2 class="article-subtitle">頁面不存在</h2>
     </div><form action="/zh-hk/search/" class="search-form widget" data-json="http://localhost:1313/zh-hk/search/index.json">
             <p>
@@ -308,14 +308,14 @@
         </div>
         
         <script>
-            window.searchResultTitleTemplate = "#PAGES_COUNT 個結果 （用時 #TIME_SECONDS 秒）"
+            window.searchResultTitleTemplate = "#PAGES_COUNT 個結果 (#TIME_SECONDS 秒)"
         </script><script type="text/javascript" src="/ts/search.js" defer></script>
 
         <script>
             const wrongUrl = new URL(window.location.href);
 
             
-            const searchKeyword = wrongUrl.pathname.split(/[/|-]/).join(' ').trim();
+            const searchKeyword = decodeURIComponent(wrongUrl.pathname).split(/[/|-]/).join(' ').trim();
 
             document.getElementById('searchInput').setAttribute('value', searchKeyword);
         </script><footer class="site-footer">
@@ -324,12 +324,12 @@
         
             2020 - 
         
-        2025 發夢站
+        2026 發夢站
     </section>
     
     <section class="powerby">
         使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 建立 <br />
-        主題 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
+        主題 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.34.2">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 設計
     </section>
 </footer>
 
@@ -340,7 +340,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.343c5f5cca9257995a7b48ee23596ef74c6c5910c2cdc5d817c67fa3c53094fd.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.c752d3f92842d35c7b29ae8a94c048adef66aab3c66e9bb30c09e6f8c8a5cd6e.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

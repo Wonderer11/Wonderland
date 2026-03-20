@@ -35,7 +35,7 @@ article:
 
 notFound:
     title:
-        other: 404 Not Found
+        other: 404 錯誤
 
     subtitle:
         other: 頁面不存在
@@ -43,14 +43,14 @@ notFound:
 widget:
     archives:
         title:
-            other: 檔案
+            other: 紀錄
+
         more:
             other: 更多
 
     tagCloud:
         title:
-            other: 標籤
-            
+            other: 標籤雲
     categoriesCloud:
         title:
             other: 分類

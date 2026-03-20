@@ -141,13 +141,13 @@
     <loc>http://localhost:1313/en/tags/likecoin-button/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/likecoin-button/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/likecoin-button/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/likecoin-button/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/likecoin-button/"
                 />
     <xhtml:link
                 rel="alternate"

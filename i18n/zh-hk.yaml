@@ -2,7 +2,7 @@ toggleMenu:
     other: 切換選單
 
 darkMode:
-    other: 暗黑模式
+    other: 深色模式
 
 list:
     page:
@@ -30,12 +30,12 @@ article:
         other: 上次改過於
 
     readingTime:
-        one: "閱讀需時 {{ .Count }} 分鐘"
-        other: "閱讀需時 {{ .Count }} 分鐘"
+        one: "需要 {{ .Count }} 分鐘閱讀"
+        other: "需要 {{ .Count }} 分鐘閱讀"
 
 notFound:
     title:
-        other: 404 Not Found
+        other: Not Found
 
     subtitle:
         other: 頁面不存在
@@ -44,13 +44,13 @@ widget:
     archives:
         title:
             other: 檔案
+
         more:
             other: 更多
 
     tagCloud:
         title:
             other: 標籤
-            
     categoriesCloud:
         title:
             other: 分類
@@ -63,7 +63,7 @@ search:
         other: 輸入關鍵字...
 
     resultTitle:
-        other: "#PAGES_COUNT 個結果 （用時 #TIME_SECONDS 秒）"
+        other: "#PAGES_COUNT 個結果 (#TIME_SECONDS 秒)"
 
 footer:
     builtWith:
