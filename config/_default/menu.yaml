@@ -1,11 +1,11 @@
 # Configure main menu and social menu
 
 social:
-    - identifier: mastodon
-      name: Mastodon
-      url: https://liker.social/@Wonderer
+    - identifier: bluesky
+      name: Bluesky
+      url: https://bsky.app/profile/a-wonderer.bsky.social
       params:
-          icon: brand-mastodon
+          icon:
 
     - identifier: penana
       name: Penana
