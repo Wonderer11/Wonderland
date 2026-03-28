@@ -5,7 +5,7 @@ social:
       name: Bluesky
       url: https://bsky.app/profile/a-wonderer.bsky.social
       params:
-          icon:
+          icon: brand-bluesky
 
     - identifier: penana
       name: Penana
