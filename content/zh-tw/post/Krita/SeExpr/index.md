@@ -17,7 +17,7 @@ comments: false
 ---
 
 # Checkerboard
-![](Seexpr Checkerboard.png)
+![](Checkerboard.png)
 
 ```
 ## Colour
