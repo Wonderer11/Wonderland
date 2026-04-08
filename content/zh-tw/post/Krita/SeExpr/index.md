@@ -38,7 +38,7 @@ if (($ix + $iy) % 2 == 0)
 }
 else
 {
-    $color = $color2;
+	$color = $color2;
 }
 
 $color
