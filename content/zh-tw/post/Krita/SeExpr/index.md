@@ -5,12 +5,11 @@ image:
 categories:
 tags:
 links:
-  - title: Krita Artist
+  - title: Krita Manual
     description: 
-    website: 
+    website: https://docs.krita.org/en/reference_manual/seexpr.html#seexpr
     image:
-	
-  - title: SeExpr
+  - title: Krita Artist
     description: 
     website: 
     image: 
