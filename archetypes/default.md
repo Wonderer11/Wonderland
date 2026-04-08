@@ -1,7 +1,7 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-description:
-image:
+title: "{{ replace .Name "-" " " | title }}"
+description: 
+image: 
 categories:
 tags:
 links:
@@ -9,6 +9,6 @@ links:
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-draft: true
 comments: false
+draft: true
 ---

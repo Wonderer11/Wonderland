@@ -1,10 +1,12 @@
 {
- "compilerOptions": {
-  "baseUrl": ".",
-  "paths": {
-   "*": [
-    "..\\themes\\hugo-theme-stack-3.34.2\\assets\\*"
-   ]
-  }
- }
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*"
+            ]
+        },
+        "lib": ["es2020", "dom"],
+        "jsx": "preserve"
+    }
 }
