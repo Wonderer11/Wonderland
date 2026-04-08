@@ -21,6 +21,7 @@ comments: false
 ![](Seexpr Checkerboard.png)
 
 ```
+## Colour
 $color1 = [0,0,0];
 $color2 = [1,1,1];
 
