@@ -70,6 +70,23 @@
                 href="http://localhost:1313/en/post/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/post/blockchain/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/post/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/post/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/post/blockchain/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -107,13 +124,13 @@
     <loc>http://localhost:1313/en/tags/like-pay/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/like-pay/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/like-pay/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/like-pay/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/like-pay/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -160,6 +177,11 @@
                 rel="alternate"
                 hreflang="zh-hk"
                 href="http://localhost:1313/zh-hk/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/p/likecoin-%E6%B8%AC%E8%A9%A6-markdown/"
                 />
     <xhtml:link
                 rel="alternate"
