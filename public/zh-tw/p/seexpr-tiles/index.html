@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-tw" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 ## Colour $color1 = [0,0,0]; $color2 = [1,1,1]; ## Number of subdivisions in each direction $subdiv = 10; # 2, 100 ## Calculate integer coordinates based on subdivisions $ix = floor($u * $subdiv); $iy = floor($v * $subdiv); ## Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 ">
 <title>SeExpr Tiles</title>
 
 <link rel='canonical' href='http://localhost:1313/zh-tw/p/seexpr-tiles/'>
 
 <link rel="stylesheet" href="/scss/style.min.86591c898bd806857815fbb8c47e8d3fed97c133b78e83d9bfc27b164dd0aa2b.css"><meta property='og:title' content="SeExpr Tiles">
-<meta property='og:description' content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 ## Colour $color1 = [0,0,0]; $color2 = [1,1,1]; ## Number of subdivisions in each direction $subdiv = 10; # 2, 100 ## Calculate integer coordinates based on subdivisions $ix = floor($u * $subdiv); $iy = floor($v * $subdiv); ## Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color ">
+<meta property='og:description' content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 ">
 <meta property='og:url' content='http://localhost:1313/zh-tw/p/seexpr-tiles/'>
 <meta property='og:site_name' content='發夢站'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' />
 <meta name="twitter:title" content="SeExpr Tiles">
-<meta name="twitter:description" content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 ## Colour $color1 = [0,0,0]; $color2 = [1,1,1]; ## Number of subdivisions in each direction $subdiv = 10; # 2, 100 ## Calculate integer coordinates based on subdivisions $ix = floor($u * $subdiv); $iy = floor($v * $subdiv); ## Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color ">
+<meta name="twitter:description" content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 ">
     <link rel="shortcut icon" href="/favicon.png" />
 
     </head>
@@ -297,7 +297,12 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#checkerboard">Checkerboard</a></li>
+    <li><a href="#checkerboard">Checkerboard</a>
+      <ol>
+        <li><a href="#checkerboard-advance">Checkerboard Advance</a></li>
+      </ol>
+    </li>
+    <li><a href="#grid-relative">Grid Relative</a></li>
   </ol>
 </nav>
         </div>
@@ -356,7 +361,7 @@
 
 
                 <time class="article-time--reading">
-                    閱讀需時 1 分鐘
+                    閱讀需時 6 分鐘
                 </time>
             </div>
         
@@ -408,30 +413,458 @@
 </span><span class="lnt">20
 </span><span class="lnt">21
 </span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## Colour
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Colour
 </span></span><span class="line"><span class="cl">$color1 = [0,0,0];
-</span></span><span class="line"><span class="cl">$color2 = [1,1,1];
+</span></span><span class="line"><span class="cl">$color2 = [1,1,1];  
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">## Number of subdivisions in each direction
-</span></span><span class="line"><span class="cl">$subdiv = 10; # 2, 100
+</span></span><span class="line"><span class="cl"># Number of subdivisions in each direction
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">## Calculate integer coordinates based on subdivisions
-</span></span><span class="line"><span class="cl">$ix = floor($u * $subdiv);
-</span></span><span class="line"><span class="cl">$iy = floor($v * $subdiv);
+</span></span><span class="line"><span class="cl">$xSubdiv = 10; # 2, 100
+</span></span><span class="line"><span class="cl">$ySubdiv = 10; # 2, 100  
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">## Checkerboard pattern using modulo operator
+</span></span><span class="line"><span class="cl"># Calculate integer coordinates based on subdivisions
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ix = floor($u * $xSubdiv);
+</span></span><span class="line"><span class="cl">$iy = floor($v * $ySubdiv);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Checkerboard pattern using modulo operator
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">if (($ix + $iy) % 2 == 0)
 </span></span><span class="line"><span class="cl">{
-</span></span><span class="line"><span class="cl">	$color = $color1;
+</span></span><span class="line"><span class="cl">$color = $color1;
 </span></span><span class="line"><span class="cl">}
 </span></span><span class="line"><span class="cl">else
 </span></span><span class="line"><span class="cl">{
-</span></span><span class="line"><span class="cl">	$color = $color2;
-</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">$color = $color2;
+</span></span><span class="line"><span class="cl">} 
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">$color
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="checkerboard-advance">Checkerboard Advance
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Colour
+</span></span><span class="line"><span class="cl">$color1 = [0.0, 0.0, 0.0]; # color
+</span></span><span class="line"><span class="cl">$color2 = [1.0, 1.0, 1.0]; # color
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Transformation Controls
+</span></span><span class="line"><span class="cl">$scale_horizontal = 10.0; # 1.0, 50.0
+</span></span><span class="line"><span class="cl">$scale_vertical = 10.0;   # 1.0, 50.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$offset_horizontal = 0.0; # -1.0, 1.0
+</span></span><span class="line"><span class="cl">$offset_vertical = 0.0;   # -1.0, 1.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$rotation = 0.0; # 0.0, 360.0
+</span></span><span class="line"><span class="cl">$shear = 0.0;    # -2.0, 2.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Rotation Matrix
+</span></span><span class="line"><span class="cl">$angleRad = rad($rotation);
+</span></span><span class="line"><span class="cl">$cosA = cos($angleRad);
+</span></span><span class="line"><span class="cl">$sinA = sin($angleRad);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Center coordinates around (0.5, 0.5) to rotate from the middle
+</span></span><span class="line"><span class="cl">$uCent = $u - 0.5;
+</span></span><span class="line"><span class="cl">$vCent = $v - 0.5;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$rotU = $uCent * $cosA - $vCent * $sinA + 0.5;
+</span></span><span class="line"><span class="cl">$rotV = $uCent * $sinA + $vCent * $cosA + 0.5;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Shearing
+</span></span><span class="line"><span class="cl">$shearedU = $rotU + ($shear * $rotV);
+</span></span><span class="line"><span class="cl">$shearedV = $rotV;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Tiling and Global Offsets
+</span></span><span class="line"><span class="cl"># Multiply by scale to ensure higher numbers create more repetitions
+</span></span><span class="line"><span class="cl">$scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal;
+</span></span><span class="line"><span class="cl">$scaledY = ($shearedV + $offset_vertical) * $scale_vertical;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Use floor to get discrete integer grid cell IDs
+</span></span><span class="line"><span class="cl">$cellX = floor($scaledX);
+</span></span><span class="line"><span class="cl">$cellY = floor($scaledY);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Checkerboard Checker (Safe Alternative to %)
+</span></span><span class="line"><span class="cl"># If the sum of the coordinates is even, use color1, else color2
+</span></span><span class="line"><span class="cl">$isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Output
+</span></span><span class="line"><span class="cl">$isEven ? $color1 : $color2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/zh-tw/p/seexpr-tiles/Checkerboard_Advance.png"
+	width="256"
+	height="256"
+	srcset="/zh-tw/p/seexpr-tiles/Checkerboard_Advance_hu_3e1b272ea46686ac.png 480w, /zh-tw/p/seexpr-tiles/Checkerboard_Advance_hu_6e97d8299d921964.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Colors
+</span></span><span class="line"><span class="cl">$color1_A = [0.0, 0.0, 0.0]; # color
+</span></span><span class="line"><span class="cl">$color1_B = [0.2, 0.4, 0.6]; # color
+</span></span><span class="line"><span class="cl">$color2   = [1.0, 1.0, 1.0]; # color
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Transformation Controls
+</span></span><span class="line"><span class="cl">$scale_horizontal = 10.0; # 1.0, 50.0
+</span></span><span class="line"><span class="cl">$scale_vertical = 10.0;   # 1.0, 50.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$offset_horizontal = 0.0; # -1.0, 1.0
+</span></span><span class="line"><span class="cl">$offset_vertical = 0.0;   # -1.0, 1.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$rotation = 0.0; # 0.0, 360.0
+</span></span><span class="line"><span class="cl">$shear = 0.0;    # -2.0, 2.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Rotation Matrix
+</span></span><span class="line"><span class="cl">$angleRad = rad($rotation);
+</span></span><span class="line"><span class="cl">$cosA = cos($angleRad);
+</span></span><span class="line"><span class="cl">$sinA = sin($angleRad);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$uCent = $u - 0.5;
+</span></span><span class="line"><span class="cl">$vCent = $v - 0.5;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$rotU = $uCent * $cosA - $vCent * $sinA + 0.5;
+</span></span><span class="line"><span class="cl">$rotV = $uCent * $sinA + $vCent * $cosA + 0.5;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Shearing
+</span></span><span class="line"><span class="cl">$shearedU = $rotU + ($shear * $rotV);
+</span></span><span class="line"><span class="cl">$shearedV = $rotV;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Tiling and Global Offsets
+</span></span><span class="line"><span class="cl">$scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal;
+</span></span><span class="line"><span class="cl">$scaledY = ($shearedV + $offset_vertical) * $scale_vertical;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$cellX = floor($scaledX);
+</span></span><span class="line"><span class="cl">$cellY = floor($scaledY);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Grid Logic
+</span></span><span class="line"><span class="cl"># Determine the primary checkerboard mask
+</span></span><span class="line"><span class="cl">$isColor1 = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Determine which sub-color to use for color1 based on the X cell ID
+</span></span><span class="line"><span class="cl">$useColor1A = fmod(abs($cellX), 2.0) &lt; 1.0;
+</span></span><span class="line"><span class="cl">$chosenColor1 = $useColor1A ? $color1_A : $color1_B;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Output
+</span></span><span class="line"><span class="cl">$isColor1 ? $chosenColor1 : $color2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="grid-relative">Grid Relative
+</h1><p><img src="/zh-tw/p/seexpr-tiles/Grid_Relative.png"
+	width="256"
+	height="256"
+	srcset="/zh-tw/p/seexpr-tiles/Grid_Relative_hu_b228392abaf966c1.png 480w, /zh-tw/p/seexpr-tiles/Grid_Relative_hu_93b53c1c89b13780.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Colors
+</span></span><span class="line"><span class="cl">$linesColor = [0, 0, 0]; # color
+</span></span><span class="line"><span class="cl">$backgroundColor = [1.0, 1.0, 1.0]; # color
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Grid Configuration
+</span></span><span class="line"><span class="cl">$xSubdiv = 3; # 1, 50
+</span></span><span class="line"><span class="cl">$ySubdiv = 3; # 1, 50
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$xOffset = 0.0; # -1.0, 1.0
+</span></span><span class="line"><span class="cl">$yOffset = 0.0; # -1.0, 1.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Relative line thickness (0.0 = invisible, 0.5 = fills half the cell)
+</span></span><span class="line"><span class="cl">$lineThickness = 0.05; # 0.0, 0.2
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Core Logic
+</span></span><span class="line"><span class="cl"># 1. Apply relative offset to our normalized UV coordinates
+</span></span><span class="line"><span class="cl">$uCoord = $u - $xOffset;
+</span></span><span class="line"><span class="cl">$vCoord = $v - $yOffset;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 2. Scale coordinates by subdivisions and find local position within the cell
+</span></span><span class="line"><span class="cl"># fmod(position, 1.0) returns a value from 0.0 to 1.0 for every cell repeat
+</span></span><span class="line"><span class="cl">$localX = fmod($uCoord * $xSubdiv, 1.0);
+</span></span><span class="line"><span class="cl">$localY = fmod($vCoord * $ySubdiv, 1.0);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Handle negative offsets safely so the grid repeats seamlessly
+</span></span><span class="line"><span class="cl">if ($localX &lt; 0.0) { $localX += 1.0; }
+</span></span><span class="line"><span class="cl">if ($localY &lt; 0.0) { $localY += 1.0; }
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 3. Determine if current position falls within the line thickness threshold
+</span></span><span class="line"><span class="cl"># Centering the line slightly by checking both ends of the cell interval
+</span></span><span class="line"><span class="cl">$halfThickness = $lineThickness / 2.0;
+</span></span><span class="line"><span class="cl">$insideX = ($localX &lt; $halfThickness) || ($localX &gt; (1.0 - $halfThickness));
+</span></span><span class="line"><span class="cl">$insideY = ($localY &lt; $halfThickness) || ($localY &gt; (1.0 - $halfThickness));
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Output
+</span></span><span class="line"><span class="cl"># If we are inside an X line OR a Y line, paint the grid line color
+</span></span><span class="line"><span class="cl">$insideX || $insideY ? $linesColor : $backgroundColor
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/zh-tw/p/seexpr-tiles/Grid_Relative_Advance.png"
+	width="256"
+	height="256"
+	srcset="/zh-tw/p/seexpr-tiles/Grid_Relative_Advance_hu_414cc6bc08ab717.png 480w, /zh-tw/p/seexpr-tiles/Grid_Relative_Advance_hu_9cfa1c65ae698e6f.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Colors
+</span></span><span class="line"><span class="cl">$linesColor = [0.0, 0.0, 0.0]; # color
+</span></span><span class="line"><span class="cl">$checkColorA = [1.0, 1.0, 1.0]; # color
+</span></span><span class="line"><span class="cl">$checkColorB = [0.2, 0.4, 0.6]; # color
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Grid Configuration
+</span></span><span class="line"><span class="cl">$xSubdiv = 4; # 1, 50
+</span></span><span class="line"><span class="cl">$ySubdiv = 4; # 1, 50
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$xOffset = 0.0; # -1.0, 1.0
+</span></span><span class="line"><span class="cl">$yOffset = 0.0; # -1.0, 1.0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Relative line thickness (0.0 = invisible, 0.5 = fills half the cell)
+</span></span><span class="line"><span class="cl">$lineThickness = 0.05; # 0.0, 0.2
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Core Logic
+</span></span><span class="line"><span class="cl"># 1. Apply relative offset to our normalized UV coordinates
+</span></span><span class="line"><span class="cl">$uCoord = $u - $xOffset;
+</span></span><span class="line"><span class="cl">$vCoord = $v - $yOffset;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 2. Track the global scaled values to determine unique Cell IDs
+</span></span><span class="line"><span class="cl">$scaledX = $uCoord * $xSubdiv;
+</span></span><span class="line"><span class="cl">$scaledY = $vCoord * $ySubdiv;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Get the integer cell coordinates
+</span></span><span class="line"><span class="cl">$cellX = floor($scaledX);
+</span></span><span class="line"><span class="cl">$cellY = floor($scaledY);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 3. Find the local position within the cell (0.0 to 1.0) for the grid lines
+</span></span><span class="line"><span class="cl">$localX = fmod($scaledX, 1.0);
+</span></span><span class="line"><span class="cl">$localY = fmod($scaledY, 1.0);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Handle negative offsets safely so the grid repeats seamlessly
+</span></span><span class="line"><span class="cl">if ($localX &lt; 0.0) { $localX += 1.0; }
+</span></span><span class="line"><span class="cl">if ($localY &lt; 0.0) { $localY += 1.0; }
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 4. Determine if current position falls within the line thickness threshold
+</span></span><span class="line"><span class="cl">$halfThickness = $lineThickness / 2.0;
+</span></span><span class="line"><span class="cl">$insideX = ($localX &lt; $halfThickness) || ($localX &gt; (1.0 - $halfThickness));
+</span></span><span class="line"><span class="cl">$insideY = ($localY &lt; $halfThickness) || ($localY &gt; (1.0 - $halfThickness));
+</span></span><span class="line"><span class="cl">$isGridLine = $insideX || $insideY;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># 5. Checkerboard Calculation
+</span></span><span class="line"><span class="cl"># Check if the sum of the grid coordinates is even
+</span></span><span class="line"><span class="cl">$isEvenTile = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0;
+</span></span><span class="line"><span class="cl">$dynamicBackground = $isEvenTile ? $checkColorA : $checkColorB;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Output
+</span></span><span class="line"><span class="cl"># Prioritize the grid lines, otherwise show the checkerboard background
+</span></span><span class="line"><span class="cl">$isGridLine ? $linesColor : $dynamicBackground
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -466,12 +899,42 @@
         </article>
     
         <article>
-            <a href="" target="_blank" rel="noopener">
+            <a href="https://krita-artists.org/t/customizable-grid-and-checkerboard-seexpr-scripts/146200" target="_blank" rel="noopener">
                 <div class="article-details">
                     <h2 class="article-title">Krita Artist</h2>
                     <footer class="article-time">
                         
-                            
+                            https://krita-artists.org/t/customizable-grid-and-checkerboard-seexpr-scripts/146200
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://krita-artists.org/t/checkerbord-seexpr-pattern/13900" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Krita Artist</h2>
+                    <footer class="article-time">
+                        
+                            https://krita-artists.org/t/checkerbord-seexpr-pattern/13900
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://krita-artists.org/t/seexpr-pixel-perfect-grids-hexagonal-grids-checkerboard-and-more/29460" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Krita Artist</h2>
+                    <footer class="article-time">
+                        
+                            https://krita-artists.org/t/seexpr-pixel-perfect-grids-hexagonal-grids-checkerboard-and-more/29460
                         
                     </footer>
                 </div>

@@ -41,13 +41,13 @@
     <loc>http://localhost:1313/zh-tw/tags/like-pay/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/like-pay/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/like-pay/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/like-pay/"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/like-pay/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -144,13 +144,13 @@
     <loc>http://localhost:1313/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/"
+                hreflang="en-us"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -161,13 +161,13 @@
     <loc>http://localhost:1313/zh-tw/categories/test/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/test/"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/categories/test/"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
