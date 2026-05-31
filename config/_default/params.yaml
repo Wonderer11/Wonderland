@@ -56,10 +56,11 @@ widgets:
       params:
         limit: 10
   page:
+    - type: search
     - type: toc
-    - type: LikeCoin
+    - type: likecoin
       params:
-        LikerID: "h47388304"
+        likerID: h47388304
     - type: categories
       params:
         limit: 10
