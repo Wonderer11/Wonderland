@@ -1,0 +1,189 @@
+mainSections:
+  - post
+  - gallery
+
+rssFullContent: true
+
+SortBy: default
+
+footer:
+  since: 2026
+  customText: ""
+
+dateFormat:
+  published: :date_full
+  lastUpdated: :date_full
+
+sidebar:
+  compact: false
+  subtitle: 願繁星伴我入夢
+  avatar: "img/avatar.png"
+
+article:
+  headingAnchor: false
+  math: false
+  toc: true
+  readingTime: true
+  list:
+    showTags: true
+  license:
+    enabled: false
+    default: Licensed under CC BY-NC-SA 4.0
+  mermaid:
+    look: classic
+    lightTheme: default
+    darkTheme: dark
+    securityLevel: strict
+    htmlLabels: true
+    transparentBackground: true
+  alertIcon:
+    note: 📝
+    tip: 💡
+    important: 📌
+    warning: ⚠️
+    caution: 🚨
+    
+widgets:
+  homepage: 
+    - type: search
+    - type: archives
+      params:
+        limit: 5
+    - type: categories
+      params:
+        limit: 10
+    - type: tag-cloud
+      params:
+        limit: 10
+  page:
+    - type: toc
+    - type: LikeCoin
+      params:
+        LikerID: "h47388304"
+    - type: categories
+      params:
+        limit: 10
+    - type: tag-cloud
+      params:
+        limit: 10
+    
+  
+opengraph:
+  twitter:
+    site: ""
+    card: summary_large_image
+    
+colorScheme:
+  toggle: true
+  default: auto
+  
+imageProcessing:
+  autoOrient: false
+  external:
+    timeout: 5s
+  content:
+    widths:
+      - 800
+      - 1600
+      - 2400
+    enabled: true
+  thumbnail:
+    enabled: true
+    
+cookies:
+  enabled: false
+  showSettings: true
+  categories:
+    analytics: true
+    functional: true
+    
+comments:
+  enabled: true
+  provider: disqus
+  artalk:
+    serverUrl: ""
+    site: ""
+  disqusjs:
+    shortname: ""
+    apiUrl: ""
+    apiKey: ""
+    admin: ""
+    adminLabel: ""
+  utterances:
+    repo: ""
+    issueTerm: pathname
+    label: ""
+  beaudar:
+    repo: ""
+    issueTerm: pathname
+    label: ""
+    theme: ""
+  remark42:
+    host: ""
+    site: ""
+    locale: en
+    max_shown_comments: 15
+    show_email_subscription: true
+  vssue:
+    platform: ""
+    owner: ""
+    repo: ""
+    clientId: ""
+    clientSecret: ""
+    autoCreateIssue: false
+  waline:
+    serverURL: ""
+    lang: ""
+    pageview: ""
+    emoji:
+      - https://unpkg.com/@waline/emojis@1.0.1/weibo
+    requiredMeta:
+      - name
+      - email
+      - url
+    locale:
+      admin: Admin
+      placeholder: ""
+  twikoo:
+    envId: ""
+    region: ""
+    path: ""
+    lang: ""
+  cactus:
+    defaultHomeserverUrl: https://matrix.cactus.chat:8448
+    serverName: cactus.chat
+    siteName: ""
+  giscus:
+    repo: ""
+    repoID: ""
+    category: ""
+    categoryID: ""
+    mapping: title
+    lightTheme: light
+    darkTheme: dark_dimmed
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: top
+    lang: en
+    strict: 0
+    loading: lazy
+  gitalk:
+    owner: ""
+    admin: ""
+    repo: ""
+    clientID: ""
+    clientSecret: ""
+    proxy: ""
+  cusdis:
+    host: https://cusdis.com
+    id: ""
+  comentario:
+    url: ""
+    autoInit: false
+    autoNonInteractiveSso: false
+    cssOverride: ""
+    lang: ""
+    liveUpdate: false
+    maxLevel: 0
+    noFonts: false
+    theme: ""
