@@ -2,8 +2,8 @@
 title: SeExpr Tiles
 description:
 image:
-categories:
-tags:
+categories: Test
+tags: Krita
 links:
   - title: Krita Manual
     description: 
