@@ -1,5 +1,5 @@
 baseURL: 'https://wonderer11.github.io/'
-theme: 'hugo-theme-stack-3.34.2'
+theme: 'hugo-theme-stack-4.0.3'
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
