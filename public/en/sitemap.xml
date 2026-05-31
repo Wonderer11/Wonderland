@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -15,11 +15,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/"
+                hreflang="en"
+                href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -32,11 +32,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/about/"
+                hreflang="en"
+                href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -49,11 +49,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/archives/"
+                hreflang="en"
+                href="http://localhost:1313/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -66,11 +66,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/post/"
+                hreflang="en"
+                href="http://localhost:1313/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/post/blockchain/</loc>
+    <loc>http://localhost:1313/post/blockchain/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -83,11 +83,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/post/blockchain/"
+                hreflang="en"
+                href="http://localhost:1313/post/blockchain/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -100,11 +100,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/gallery/</loc>
+    <loc>http://localhost:1313/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -117,16 +117,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/gallery/"
+                hreflang="en"
+                href="http://localhost:1313/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/like-pay/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/like-pay/"
-                />
+    <loc>http://localhost:1313/tags/like-pay/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -134,11 +129,16 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/like-pay/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/like-pay/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/like-pay/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/likecoin/</loc>
+    <loc>http://localhost:1313/tags/likecoin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -151,16 +151,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/likecoin/"
+                hreflang="en"
+                href="http://localhost:1313/tags/likecoin/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/likecoin-button/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/likecoin-button/"
-                />
+    <loc>http://localhost:1313/tags/likecoin-button/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -168,11 +163,16 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/likecoin-button/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/likecoin-button/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/likecoin-button/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/p/likecoin-test-markdown/</loc>
+    <loc>http://localhost:1313/p/likecoin-test-markdown/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -185,16 +185,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/p/likecoin-test-markdown/"
+                hreflang="en"
+                href="http://localhost:1313/p/likecoin-test-markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/page/"
-                />
+    <loc>http://localhost:1313/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -202,11 +197,16 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/page/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -219,11 +219,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/search/"
+                hreflang="en"
+                href="http://localhost:1313/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -236,16 +236,11 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/test/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/categories/test/"
-                />
+    <loc>http://localhost:1313/categories/test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
@@ -253,8 +248,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/test/"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/test/"
                 />
   </url>
 </urlset>

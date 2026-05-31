@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>文章 on 發夢站</title>
         <link>http://localhost:1313/zh-hk/post/</link>
         <description>Recent content in 文章 on 發夢站</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-hk</language><atom:link href="http://localhost:1313/zh-hk/post/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+        <language>zh-hk</language><atom:link href="http://localhost:1313/zh-hk/post/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>區塊鏈</title>
+            <link>http://localhost:1313/zh-hk/post/blockchain/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/zh-hk/post/blockchain/</guid>
+            <description></description>
+        </item></channel>
 </rss>

@@ -23,12 +23,14 @@
     list;
     resultTitle;
     resultTitleTemplate;
+    container;
     constructor({ form, input, list, resultTitle, resultTitleTemplate }) {
       this.form = form;
       this.input = input;
       this.list = list;
       this.resultTitle = resultTitle;
       this.resultTitleTemplate = resultTitleTemplate;
+      this.container = list.parentElement;
       if (this.input.value.trim() !== "") {
         this.doSearch(this.input.value.split(" "));
       } else {
@@ -133,9 +135,10 @@
       }
       const endTime = performance.now();
       this.resultTitle.innerText = this.generateResultTitle(results.length, ((endTime - startTime) / 1e3).toPrecision(1));
+      this.container?.classList.remove("hidden");
     }
     generateResultTitle(resultLen, time) {
-      return this.resultTitleTemplate.replace("#PAGES_COUNT", resultLen).replace("#TIME_SECONDS", time);
+      return this.resultTitleTemplate.replace("#PAGES_COUNT", resultLen.toString()).replace("#TIME_SECONDS", time);
     }
     async getData() {
       if (!this.data) {
@@ -168,6 +171,7 @@
     clear() {
       this.list.innerHTML = "";
       this.resultTitle.innerText = "";
+      this.container.classList.add("hidden");
     }
     bindQueryStringChange() {
       window.addEventListener("popstate", (e) => {
@@ -176,7 +180,7 @@
     }
     handleQueryString() {
       const pageURL = new URL(window.location.toString());
-      const keywords = pageURL.searchParams.get("keyword");
+      const keywords = pageURL.searchParams.get("keyword") || "";
       this.input.value = keywords;
       if (keywords) {
         this.doSearch(keywords.split(" "));
@@ -203,7 +207,8 @@
   };
   window.addEventListener("load", () => {
     setTimeout(function() {
-      const searchForm = document.querySelector(".search-form"), searchInput = searchForm.querySelector("input"), searchResultList = document.querySelector(".search-result--list"), searchResultTitle = document.querySelector(".search-result--title");
+      const searchForm = document.querySelector(".search-form"), searchInput = searchForm?.querySelector("input"), searchResultList = document.querySelector(".search-result--list"), searchResultTitle = document.querySelector(".search-result--title");
+      if (!searchForm || !searchInput || !searchResultList || !searchResultTitle) return;
       new Search({
         form: searchForm,
         input: searchInput,

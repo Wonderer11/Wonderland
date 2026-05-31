@@ -1,4 +1,5 @@
 en:
+  contentDir: content/en
   label: English
   title: "Wonderland"
   weight: 1
@@ -7,6 +8,7 @@ en:
       subtitle: "A home for wonderer"
 
 zh-hk:
+  contentDir: content/zh-hk
   label: 粵語
   title: 發夢站
   weight: 2
@@ -15,6 +17,7 @@ zh-hk:
       subtitle: 用愛發夢
       
 zh-tw:
+  contentDir: content/zh-tw
   label: 華語
   title: 發夢站
   weight: 3
