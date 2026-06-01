@@ -58,16 +58,15 @@ widgets:
   page:
     - type: search
     - type: toc
-    - type: likecoin
-      params:
-        likerID: h47388304
     - type: categories
       params:
         limit: 10
     - type: tag-cloud
       params:
         limit: 10
-    
+    - type: likecoin
+      params:
+        likerID: h47388304   
   
 opengraph:
   twitter:
