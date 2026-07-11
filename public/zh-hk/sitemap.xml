@@ -196,6 +196,18 @@
                 href="http://localhost:1313/zh-tw/post/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-hk/tags/%E8%89%B2%E8%89%B2%E7%9B%B8%E9%97%9C/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/%E8%89%B2%E8%89%B2%E7%9B%B8%E9%97%9C/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/%E8%89%B2%E8%89%B2%E7%9B%B8%E9%97%9C/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-hk/post/blockchain/</loc>
     <xhtml:link
                 rel="alternate"
@@ -280,5 +292,7 @@
                 hreflang="zh-tw"
                 href="http://localhost:1313/zh-tw/about/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zh-hk/p/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E6%83%85%E6%85%BE%E7%9B%B4%E6%92%AD%E9%96%93/</loc>
   </url>
 </urlset>

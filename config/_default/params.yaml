@@ -78,7 +78,7 @@ colorScheme:
   default: auto
   
 imageProcessing:
-  autoOrient: false
+  autoOrient: true
   external:
     timeout: 5s
   content:
