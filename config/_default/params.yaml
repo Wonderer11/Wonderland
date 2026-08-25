@@ -67,8 +67,8 @@ widgets:
     - type: asset
     - type: likecoin
       params:
-        likerID: h47388304   
-  
+        likerID: h47388304
+
 opengraph:
   twitter:
     site: ""

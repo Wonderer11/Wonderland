@@ -1,5 +1,5 @@
 {{- $context := .Context -}}
-{{- $likerID := .Site.Params.likerID -}}
+{{- $LikerID := .Site.Params.likerID -}}
 
 <section class="widget likecoin">
     <div class="widget-icon">
@@ -8,7 +8,7 @@
     <h2 class="widget-title section-title">LikeCoin Button</h2>
     <div class="likecoin-button">
         <iframe class="LikeCoin"
-            src="https://button.like.co/in/embed/{{ $likerID }}/button?referrer={{ .Permalink }}"
+            src="https://button.like.co/in/embed/{{ $LikerID }}/button?referrer={{ .Permalink }}"
             width="100%"
             height="200"
             frameborder="0">
