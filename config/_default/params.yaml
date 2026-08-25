@@ -1,3 +1,5 @@
+likerID: h47388304
+
 mainSections:
   - post
   - gallery
@@ -21,7 +23,7 @@ sidebar:
 
 article:
   headingAnchor: false
-  math: false
+  math: true
   toc: true
   readingTime: true
   list:
@@ -65,9 +67,6 @@ widgets:
       params:
         limit: 10
     - type: asset
-    - type: likecoin
-      params:
-        likerID: h47388304
 
 opengraph:
   twitter:
