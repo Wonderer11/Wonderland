@@ -64,6 +64,7 @@ widgets:
     - type: tag-cloud
       params:
         limit: 10
+    - type: asset
     - type: likecoin
       params:
         likerID: h47388304   

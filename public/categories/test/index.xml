@@ -5,6 +5,12 @@
         <description>Recent content in Test on Wonderland</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Keplr Test Markdown</title>
+            <link>http://localhost:1313/p/keplr-test-markdown/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/p/keplr-test-markdown/</guid>
+            <description></description>
+        </item><item>
             <title>LikeCoin Test Markdown</title>
             <link>http://localhost:1313/p/likecoin-test-markdown/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

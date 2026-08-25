@@ -121,6 +121,8 @@
                 href="http://localhost:1313/zh-tw/gallery/"
                 />
   </url><url>
+    <loc>http://localhost:1313/p/keplr-test-markdown/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/like-pay/</loc>
     <xhtml:link
                 rel="alternate"
