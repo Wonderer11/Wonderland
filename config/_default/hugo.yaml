@@ -1,18 +1,11 @@
 baseURL: https://wonderer11.github.io/
-
-locale: en
-
+theme:
+- hugo-theme-stack-4.0.3
 title: Wonderland
 
-theme: hugo-theme-stack-4.0.3
-
+locale: "en"
 defaultContentLanguage: en
 hasCJKLanguage: true
     
 pagination:
   pagerSize: 20
-  
-permalinks:
-  post: /p/:slug/
-  page: /:slug/
-

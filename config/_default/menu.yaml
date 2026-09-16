@@ -1,20 +1,22 @@
-# Configure main menu and social menu
+# Configure main menu in languages.yaml
+
+# Configure social menu
 
 social:
-    - identifier: bluesky
-      name: Bluesky
-      url: https://bsky.app/profile/a-wonderer.bsky.social
-      params:
-          icon: brand-bluesky
+  - identifier: bluesky
+    name: Bluesky
+    url: https://bsky.app/profile/a-wonderer.bsky.social
+    params:
+      icon: brand-bluesky
 
-    - identifier: penana
-      name: Penana
-      url: https://www.penana.com/user/116863/%E7%99%BC%E5%A4%A2%E5%AE%B6
-      params:
-          icon: brand-penana
+  - identifier: penana
+    name: Penana
+    url: https://www.penana.com/user/116863/%E7%99%BC%E5%A4%A2%E5%AE%B6
+    params:
+      icon: brand-penana
           
-    - identifier: matters
-      name: Matters
-      url: https://matters.town/@wonderer
-      params:
-          icon: brand-matters
+  - identifier: matters
+    name: Matters
+    url: https://matters.town/@wonderer
+    params:
+      icon: brand-matters

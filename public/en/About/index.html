@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="content/en">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Wonderland, a home for Wonderer">
 <title>About</title>
@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
 
-<link rel="stylesheet" href="/scss/style.min.e62e09c60ba428a627e03568fa3df938f6a8224f815b5846f00816c17d4a0be4.css"><meta property='og:title' content="About">
+<link rel="stylesheet" href="/scss/style.min.6c875234350e518395efbf51958523b0852fb2215ab8cb81358f9317153eba2d.css"><meta property='og:title' content="About">
 <meta property='og:description' content="Wonderland, a home for Wonderer">
 <meta property='og:url' content='http://localhost:1313/en/about/'>
 <meta property='og:site_name' content='Wonderland'>
@@ -55,7 +55,7 @@
     <header>
         <figure class="site-avatar">
                 <a href="/">
-                    <img src="/img/avatar.png" 
+                    <img src="/img/avatar_hu_c29a42b01a235678.png" 
                         width="150"
                         height="150"
                         class="site-logo"
@@ -366,6 +366,26 @@
     <aside class="sidebar right-sidebar sticky">
         
             
+                <form action="/en/page/search/" class="search-form widget" >
+        <p>
+            <label>Search</label>
+            <input name="keyword" required placeholder="Type something..." />
+        
+            <button title="Search">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
                 
     <section class="widget archives">
         <div class="widget-icon">
@@ -394,15 +414,6 @@
         </div>
     </section>
 
-            
-        
-            
-                <iframe class="LikeCoin"
-    src="https://button.like.co/in/embed/h47388304/button?referrer="
-    width="100%"
-	height="450"
-    frameborder=0>
-</iframe>
             
         
             
@@ -502,9 +513,27 @@
                 廢土
             </a>
         
+            <a href="/tags/%E8%89%B2%E8%89%B2%E7%9B%B8%E9%97%9C/">
+                色色相關
+            </a>
+        
     </div>
 </section>
 
+            
+        
+            
+                <section class="widget asset">
+    <div class="widget-icon">
+    </div>
+    
+    <h2 class="widget-title section-title">View Asset</h2>
+    <div class="view button">
+	    <a class="asset-button" href="" target="_blank" rel="noopener noreferrer">
+            View in New Tab
+        </a>
+    </div>
+</section>
             
         
     </aside>
@@ -590,10 +619,11 @@
     <section class="article-content">
     
     
-    <h1 id="wonderland">Wonderland</h1>
-<p>Built with Hugo, an open source static site generator available under the <a href="https://github.com/gohugoio/hugo/blob/master/LICENSE">Apache License 2.0</a>.</p>
-<h1 id="wonderer">Wonderer</h1>
-<p>Hello World!</p>
+    <h1 id="wonderland">Wonderland
+</h1><p>Built with Hugo, an open source static site generator available under the <a class="link" href="https://github.com/gohugoio/hugo/blob/master/LICENSE"  target="_blank" rel="noopener"
+    >Apache License 2.0</a>.</p>
+<h1 id="wonderer">Wonderer
+</h1><p>Hello World!</p>
 
 </section>
 
@@ -604,6 +634,38 @@
     </footer>
 
 
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const elementsToRender = [".main-article", ".widget--toc"];
+
+        elementsToRender.forEach(selector => {
+            const element = document.querySelector(selector);
+            if (element) {
+                renderMathInElement(element, {
+                    delimiters: [
+                        { left: "$$", right: "$$", display: true },
+                        { left: "$", right: "$", display: false },
+                        { left: "\\(", right: "\\)", display: false },
+                        { left: "\\[", right: "\\]", display: true }
+                    ],
+                    ignoredClasses: ["gist"]
+                });
+            }
+        });
+    });
+</script>
     
 </article>
 
@@ -624,40 +686,6 @@
         </article>
     
         <article>
-            <a href="https://about.like.co/" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">Likecoin</h2>
-                    <footer class="article-meta">
-                        
-                            LikeCoin, an application-specific blockchain for decentralized publishing built on Cosmos SDK.
-                        
-                    </footer>
-                </div><div class="article-image">
-                       <img alt="Likecoin" loading="lazy" src="https://1249647148-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LL4mdaVjNgL6A1--PV0-1972196547%2Fuploads%2FxWHh2smDvgmTJRNMj2wp%2FLikeCoin_PressKit_Coin_Fullcolor.svg?alt=media&token=bacf8d89-b0b0-4de1-acbf-27918b62add3">
-
-                    </div>
-                
-            </a>
-        </article>
-    
-        <article>
-            <a href="https://liker.social/@Wonderer" target="_blank" rel="noopener">
-                <div class="article-details">
-                    <h2 class="article-title">Mastodon</h2>
-                    <footer class="article-meta">
-                        
-                            liker.social is one of the many independent Mastodon servers you can use to participate in the fediverse.
-                        
-                    </footer>
-                </div><div class="article-image">
-                       <img alt="Mastodon" loading="lazy" src="https://joinmastodon.org/logos/logo-purple.svg">
-
-                    </div>
-                
-            </a>
-        </article>
-    
-        <article>
             <a href="https://www.penana.com/user/116863/%E7%99%BC%E5%A4%A2%E5%AE%B6" target="_blank" rel="noopener">
                 <div class="article-details">
                     <h2 class="article-title">Penana</h2>
@@ -668,6 +696,40 @@
                     </footer>
                 </div><div class="article-image">
                        <img alt="Penana" loading="lazy" src="https://1392254396-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FdCvq4A3Z8GBtJkq79Hxy%2Fuploads%2FEGCRo9jn4Gdd32mUrfvF%2Flogo_new.svg?alt=media&token=0ece9bc4-9cec-42c9-9317-a1dc23804262">
+
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://bsky.app/profile/a-wonderer.bsky.social" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Bluesky</h2>
+                    <footer class="article-meta">
+                        
+                            https://bsky.app/profile/a-wonderer.bsky.social
+                        
+                    </footer>
+                </div><div class="article-image">
+                       <img alt="Bluesky" loading="lazy" src="/img/bluesky_media_kit_logo_transparent_1.svg">
+
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Mastodon</h2>
+                    <footer class="article-meta">
+                        
+                            liker.social is one of the many independent Mastodon servers you can use to participate in the fediverse.
+                        
+                    </footer>
+                </div><div class="article-image">
+                       <img alt="Mastodon" loading="lazy" src="https://joinmastodon.org/logos/logo-purple.svg">
 
                     </div>
                 
@@ -731,7 +793,7 @@
             </main>
         </div>
         
-<script type="text/javascript" src="/ts/main.304380fdd8b666f8cc72b18d5156b3a45930ad972db345a28a7652eb341ee580.js" defer></script>
+<script type="text/javascript" src="/ts/main.c47f4d3bc4f13180f8e8819aba747ddf1ac40bdbacbcaf8a90bbbb3005c56a36.js" defer></script>
 
 
     </body>

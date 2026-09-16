@@ -1,12 +1,9 @@
 # Related contents configuration
 includeNewer = true
-threshold = 20
-toLower = false
+threshold    = 60
+toLower      = false
 
-[[indices]]
-name = "tags"
-weight = 10
-
-[[indices]]
-name = "categories"
-weight = 10
+indices = [
+    { name = "tags", weight = 10 },
+    { name = "categories", weight = 20 },
+]

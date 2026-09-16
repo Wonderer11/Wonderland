@@ -1,26 +1,65 @@
 en:
-  contentDir: content/en
-  label: English
-  title: "Wonderland"
+  direction: 'ltr'
+  contentDir: 'content/en'
+  disabled: false
+  label: 'English'
+  locale: 'en'
+  title: 'Wonderland'
   weight: 1
   params:
     sidebar:
       subtitle: "A home for wonderer"
+  menus:
+    main:
+      - identifier: home
+        name: Home
+        url: /
+        params:
+          icon: home
+          
+      - identifier: about
+        name: About
+        url: /about
+        params:
+          icon: user
+          
+
 
 zh-hk:
-  contentDir: content/zh-hk
-  label: 粵語
-  title: 發夢站
+  direction: 'ltr'
+  contentDir: 'content/zh-hk'
+  disabled: false
+  label: '粵語'
+  locale: 'zh-hk'
+  title: '發夢站'
   weight: 2
   params:
     sidebar:
       subtitle: 用愛發夢
-      
+  menus:
+    main:
+      - identifier: home
+        name: 主頁
+        url: /
+        params:
+          icon: home
+
+
 zh-tw:
-  contentDir: content/zh-tw
-  label: 華語
-  title: 發夢站
+  direction: 'ltr'
+  contentDir: 'content/zh-tw'
+  disabled: false
+  label: '華語'
+  locale: 'zh-tw'
+  title: '發夢站'
   weight: 3
   params:
     sidebar:
       subtitle: 用愛發夢
+  menus:
+    main:
+      - identifier: home
+        name: 主頁
+        url: /
+        params:
+          icon: home

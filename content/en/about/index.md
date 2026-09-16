@@ -1,8 +1,6 @@
 ---
 title: About
 description: Wonderland, a home for Wonderer
-aliases:
-  - About
 links:
   - title: Hugo
     description: Hugo, the world's fastest framework for building websites.
@@ -20,10 +18,6 @@ links:
     description: liker.social is one of the many independent Mastodon servers you can use to participate in the fediverse.
     website: 
     image: https://joinmastodon.org/logos/logo-purple.svg
-menu:
-    main:
-        params:
-            icon: user
 comments: false
 ---
 
