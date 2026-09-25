@@ -6,20 +6,23 @@ mainSections:
 
 rssFullContent: true
 
+favicon: img/avatar.png
+
 SortBy: default
 
 footer:
   since: 2026
   customText: ""
 
+sidebar:
+  emoji: 🍥
+  compact: false
+  subtitle: 願繁星伴我入夢
+  avatar: img/avatar.png
+
 dateFormat:
   published: :date_full
   lastUpdated: :date_full
-
-sidebar:
-  compact: false
-  subtitle: 願繁星伴我入夢
-  avatar: "img/avatar.png"
 
 article:
   headingAnchor: false
@@ -44,7 +47,7 @@ article:
     important: 📌
     warning: ⚠️
     caution: 🚨
-    
+
 widgets:
   homepage: 
     - type: search
@@ -187,3 +190,4 @@ comments:
     maxLevel: 0
     noFonts: false
     theme: ""
+
