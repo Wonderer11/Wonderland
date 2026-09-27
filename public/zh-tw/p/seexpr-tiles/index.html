@@ -19,6 +19,8 @@
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Krita' />
 <meta name="twitter:title" content="SeExpr Tiles">
 <meta name="twitter:description" content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 ">
+    <link rel="shortcut icon" href="/img/avatar_hu_33846a4151f48cb8.png" />
+
     </head>
     <body class="
     article-page
@@ -55,13 +57,15 @@
     <header>
         <figure class="site-avatar">
                 <a href="/zh-tw/">
-                    <img src="/img/avatar_hu_c29a42b01a235678.png" 
+                    <img src="/img/avatar_hu_33846a4151f48cb8.png" 
                         width="150"
                         height="150"
                         class="site-logo"
                         loading="lazy"
                         alt="Avatar">
                 </a>
+                
+                    <span class="emoji">🍥</span>
                 
             </figure>
         
@@ -497,7 +501,7 @@
     
     
     <h1 id="checkerboard">Checkerboard
-</h1><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Checkerboard_hu_36669f209a02cb70.png" width="256"></p>
+</h1><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Checkerboard_hu_99536db1f730fa4c.png" width="256"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -653,7 +657,7 @@
 </span></span><span class="line"><span class="cl">$isEven ? $color1 : $color2
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Checkerboard_Advance_hu_96ca3b3300d586c0.png" width="256"></p>
+</div><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Checkerboard_Advance_hu_d195032001f92c43.png" width="256"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -755,7 +759,7 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h1 id="grid-relative">Grid Relative
-</h1><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Grid_Relative_hu_a6c28c108249fe88.png" width="256"></p>
+</h1><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Grid_Relative_hu_cc4c1a9aa2071533.png" width="256"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -836,7 +840,7 @@
 </span></span><span class="line"><span class="cl">$insideX || $insideY ? $linesColor : $backgroundColor
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Grid_Relative_Advance_hu_7c71225b4d29b011.png" width="256"></p>
+</div><p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="256" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="/zh-tw/p/seexpr-tiles/Grid_Relative_Advance_hu_a276e11a686a8958.png" width="256"></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -1126,7 +1130,7 @@
             </main>
         </div>
         
-<script type="text/javascript" src="/ts/main.c47f4d3bc4f13180f8e8819aba747ddf1ac40bdbacbcaf8a90bbbb3005c56a36.js" defer></script>
+<script type="text/javascript" src="/ts/main.304380fdd8b666f8cc72b18d5156b3a45930ad972db345a28a7652eb341ee580.js" defer></script>
 
 
     </body>
