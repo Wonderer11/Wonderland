@@ -11,6 +11,12 @@
             <guid>http://localhost:1313/tags/alien-stage/</guid>
             <description></description>
         </item><item>
+            <title>Krita</title>
+            <link>http://localhost:1313/tags/krita/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/krita/</guid>
+            <description></description>
+        </item><item>
             <title>Like Pay</title>
             <link>http://localhost:1313/tags/like-pay/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -27,6 +33,12 @@
             <link>http://localhost:1313/tags/likecoin-button/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/tags/likecoin-button/</guid>
+            <description></description>
+        </item><item>
+            <title>Vroid Studio</title>
+            <link>http://localhost:1313/tags/vroid-studio/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/tags/vroid-studio/</guid>
             <description></description>
         </item></channel>
 </rss>

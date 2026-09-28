@@ -15,14 +15,12 @@ en:
         name: Home
         url: /
         params:
-          icon: home
-          
+          icon: home         
       - identifier: about
         name: About
         url: /about
         params:
           icon: user
-          
 
 
 zh-hk:
@@ -43,6 +41,11 @@ zh-hk:
         url: /
         params:
           icon: home
+      - identifier: about
+        name: 關於
+        url: /about
+        params:
+          icon: user
 
 
 zh-tw:
@@ -63,3 +66,9 @@ zh-tw:
         url: /
         params:
           icon: home
+      - identifier: about
+        name: 關於
+        url: /about
+        params:
+          icon: user
+

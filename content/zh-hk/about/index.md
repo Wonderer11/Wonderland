@@ -1,8 +1,6 @@
 ---
 title: 關於
 description: Wonderland, a home for Wonderer
-aliases:
-  - About
 links:
   - title: Hugo
     description: Hugo, the world's fastest framework for building websites.
@@ -15,15 +13,11 @@ links:
   - title: Bluesky
     description: 
     website: https://bsky.app/profile/a-wonderer.bsky.social
-    image: ./assets/img/bluesky_media_kit_logo_transparent_1.svg
+    image: ""
   - title: Mastodon
     description: (Server Name) is one of the many independent Mastodon servers you can use to participate in the fediverse.
     website: 
     image: https://joinmastodon.org/logos/logo-purple.svg
-menu:
-    main:
-        params:
-            icon: user
 comments: false
 ---
 

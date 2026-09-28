@@ -108,6 +108,8 @@
   </url><url>
     <loc>http://localhost:1313/gallery/character-sheet/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/fanworks/</loc>
+  </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <xhtml:link
                 rel="alternate"
@@ -126,6 +128,18 @@
                 />
   </url><url>
     <loc>http://localhost:1313/p/keplr-test-markdown/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/krita/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/krita/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/krita/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/like-pay/</loc>
     <xhtml:link
@@ -263,16 +277,6 @@
                 href="http://localhost:1313/zh-tw/categories/test/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/%E4%BA%8C%E5%89%B5/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/%E4%BA%8C%E5%89%B5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/categories/%E4%BA%8C%E5%89%B5/"
-                />
+    <loc>http://localhost:1313/tags/vroid-studio/</loc>
   </url>
 </urlset>
