@@ -13,9 +13,9 @@ links:
   - title: Bluesky
     description: 
     website: https://bsky.app/profile/a-wonderer.bsky.social
-    image: "/img/bluesky_media_kit_logo_transparent_1.svg"
+    image: "logo/bluesky_logo.svg"
   - title: Mastodon
-    description: liker.social is one of the many independent Mastodon servers you can use to participate in the fediverse.
+    description: (Server Name) is one of the many independent Mastodon servers you can use to participate in the fediverse.
     website: 
     image: https://joinmastodon.org/logos/logo-purple.svg
 comments: false

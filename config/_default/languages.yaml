@@ -13,15 +13,24 @@ en:
     main:
       - identifier: home
         name: Home
-        url: /
+        pageRef: /
         params:
           icon: home         
       - identifier: about
         name: About
-        url: /about
+        pageRef: /about
         params:
           icon: user
-
+      - identifier: archives
+        name: Archives
+        pageRef: page/archives
+        params:
+          icon: archives
+      - identifier: search
+        name: Search
+        pageRef: page/search
+        params:
+          icon: search
 
 zh-hk:
   direction: 'ltr'
@@ -38,15 +47,24 @@ zh-hk:
     main:
       - identifier: home
         name: 主頁
-        url: /
+        pageRef: /
         params:
           icon: home
       - identifier: about
         name: 關於
-        url: /about
+        pageRef: /about
         params:
           icon: user
-
+      - identifier: archives
+        name: 檔案
+        pageRef: page/archives
+        params:
+          icon: archives
+      - identifier: search
+        name: 搜尋
+        pageRef: page/search
+        params:
+          icon: search
 
 zh-tw:
   direction: 'ltr'
@@ -63,12 +81,21 @@ zh-tw:
     main:
       - identifier: home
         name: 主頁
-        url: /
+        pageRef: /
         params:
           icon: home
       - identifier: about
         name: 關於
-        url: /about
+        pageRef: /about
         params:
           icon: user
-
+      - identifier: archives
+        name: 檔案
+        pageRef: page/archives
+        params:
+          icon: archives
+      - identifier: search
+        name: 搜尋
+        pageRef: page/search
+        params:
+          icon: search

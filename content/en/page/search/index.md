@@ -1,12 +1,8 @@
 ---
 title: "Search"
-slug: "search"
 layout: "search"
+slug: "search"
 outputs:
     - html
     - json
-menu:
-    main:
-        params: 
-            icon: search
 ---

@@ -13,7 +13,7 @@ links:
   - title: Bluesky
     description: 
     website: https://bsky.app/profile/a-wonderer.bsky.social
-    image: ""
+    image: "logo/bluesky_logo.svg"
   - title: Mastodon
     description: (Server Name) is one of the many independent Mastodon servers you can use to participate in the fediverse.
     website: 
