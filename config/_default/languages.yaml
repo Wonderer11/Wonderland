@@ -31,6 +31,23 @@ en:
         pageRef: page/search
         params:
           icon: search
+    
+    social:
+      - identifier: bluesky
+        name: Bluesky
+        url: https://bsky.app/profile/a-wonderer.bsky.social
+        params:
+          icon: brand-bluesky
+      - identifier: penana
+        name: Penana
+        url: https://www.penana.com/user/116863/
+        params:
+          icon: brand-penana          
+      - identifier: matters
+        name: Matters
+        url: https://matters.town/@wonderer
+        params:
+          icon: brand-matters
 
 zh-hk:
   direction: 'ltr'
@@ -66,6 +83,23 @@ zh-hk:
         params:
           icon: search
 
+    social:
+      - identifier: bluesky
+        name: Bluesky
+        url: https://bsky.app/profile/a-wonderer.bsky.social
+        params:
+          icon: brand-bluesky
+      - identifier: penana
+        name: Penana
+        url: https://www.penana.com/user/116863/
+        params:
+          icon: brand-penana          
+      - identifier: matters
+        name: Matters
+        url: https://matters.town/@wonderer
+        params:
+          icon: brand-matters
+
 zh-tw:
   direction: 'ltr'
   contentDir: 'content/zh-tw'
@@ -99,3 +133,20 @@ zh-tw:
         pageRef: page/search
         params:
           icon: search
+
+    social:
+      - identifier: bluesky
+        name: Bluesky
+        url: https://bsky.app/profile/a-wonderer.bsky.social
+        params:
+          icon: brand-bluesky
+      - identifier: penana
+        name: Penana
+        url: https://www.penana.com/user/116863/
+        params:
+          icon: brand-penana          
+      - identifier: matters
+        name: Matters
+        url: https://matters.town/@wonderer
+        params:
+          icon: brand-matters
