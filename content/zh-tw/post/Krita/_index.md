@@ -1,5 +1,5 @@
 ---
 title: Krita
 description: Collections of Krita
-image: krita_logo.png
+image: logo/krita_logo.png
 ---
