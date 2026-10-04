@@ -1,7 +1,7 @@
 ---
 title: SeExpr Tiles
 description:
-image:
+image: logo/krita_logo.png
 categories: 
   - Test
 tags: 
