@@ -8,7 +8,6 @@ tags:
   - Krita
   - DOL
   - Pixel Art
-draft: false
 comments: false
 ---
 # In Town
