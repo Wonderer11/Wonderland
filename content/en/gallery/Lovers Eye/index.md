@@ -3,14 +3,16 @@ title: Lovers' Eye
 description: 
 image: 
 categories:
-  - 二創
+  - Fanworks
 tags:
-  - Pixel
+  - Krita
+  - DOL
+  - Pixel Art
 draft: false
 comments: false
 ---
-# 校園
+# In Town
 ![](Whitney.png) ![](Sydney.png) ![](Kylar.png)
 
-# 市郊
+# Out of Town
 ![](Alex.png)
