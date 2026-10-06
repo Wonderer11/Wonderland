@@ -2,228 +2,209 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wonderer11.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/"
+                href="http://localhost:1313/zh-hk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/"
+                href="http://localhost:1313/zh-tw/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/about/"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/about/"
+                href="http://localhost:1313/zh-hk/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/about/"
+                href="http://localhost:1313/zh-tw/about/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/tags/alien-stage/</loc>
+    <loc>http://localhost:1313/tags/alien-stage/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/archives/"
+                href="http://localhost:1313/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/archives/"
+                href="http://localhost:1313/zh-hk/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/archives/"
+                href="http://localhost:1313/zh-tw/archives/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/post/"
+                href="http://localhost:1313/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/post/"
+                href="http://localhost:1313/zh-hk/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/post/"
+                href="http://localhost:1313/zh-tw/post/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/post/blockchain/</loc>
+    <loc>http://localhost:1313/post/blockchain/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/post/blockchain/"
+                href="http://localhost:1313/post/blockchain/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/post/blockchain/"
+                href="http://localhost:1313/zh-hk/post/blockchain/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/post/blockchain/"
+                href="http://localhost:1313/zh-tw/post/blockchain/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/p/blockchain-test-markdown/</loc>
-  </url><url>
-    <loc>https://wonderer11.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/categories/"
+                href="http://localhost:1313/zh-hk/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/categories/"
+                href="http://localhost:1313/zh-tw/categories/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/gallery/character-sheet/</loc>
+    <loc>http://localhost:1313/gallery/character-sheet/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/tags/dol/</loc>
+    <loc>http://localhost:1313/tags/dol/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/categories/fanworks/</loc>
+    <loc>http://localhost:1313/categories/fanworks/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/gallery/</loc>
+    <loc>http://localhost:1313/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/gallery/"
+                href="http://localhost:1313/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/gallery/"
+                href="http://localhost:1313/zh-hk/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/gallery/"
+                href="http://localhost:1313/zh-tw/gallery/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/tags/krita/</loc>
+    <loc>http://localhost:1313/tags/krita/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/tags/likecoin/</loc>
+    <loc>http://localhost:1313/gallery/lovers-eye/</loc>
+  </url><url>
+    <loc>http://localhost:1313/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/tags/likecoin/"
+                href="http://localhost:1313/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/tags/likecoin/"
+                href="http://localhost:1313/zh-hk/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/tags/likecoin/"
+                href="http://localhost:1313/zh-tw/page/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/gallery/lovers-eye/</loc>
+    <loc>http://localhost:1313/tags/pixel-art/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/page/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/page/"
+                href="http://localhost:1313/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/page/"
+                href="http://localhost:1313/zh-hk/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/page/"
+                href="http://localhost:1313/zh-tw/search/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/tags/pixel-art/</loc>
+    <loc>http://localhost:1313/gallery/seexpr/</loc>
   </url><url>
-    <loc>https://wonderer11.github.io/search/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/search/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/search/"
+                href="http://localhost:1313/zh-hk/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/search/"
+                href="http://localhost:1313/zh-tw/tags/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/gallery/seexpr/</loc>
-  </url><url>
-    <loc>https://wonderer11.github.io/tags/</loc>
+    <loc>http://localhost:1313/categories/test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://wonderer11.github.io/tags/"
+                href="http://localhost:1313/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/tags/"
+                href="http://localhost:1313/zh-hk/categories/test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/tags/"
+                href="http://localhost:1313/zh-tw/categories/test/"
                 />
   </url><url>
-    <loc>https://wonderer11.github.io/categories/test/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wonderer11.github.io/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="https://wonderer11.github.io/zh-hk/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://wonderer11.github.io/zh-tw/categories/test/"
-                />
-  </url><url>
-    <loc>https://wonderer11.github.io/tags/vroid-studio/</loc>
+    <loc>http://localhost:1313/tags/vroid-studio/</loc>
   </url>
 </urlset>

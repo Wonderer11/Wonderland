@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 ">
 <title>SeExpr Tiles</title>
 
 
-<link rel="canonical" href="https://wonderer11.github.io/gallery/seexpr/">
+<link rel="canonical" href="http://localhost:1313/gallery/seexpr/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
@@ -14,12 +14,12 @@
 
 <link rel="stylesheet" href="/scss/style.min.6c875234350e518395efbf51958523b0852fb2215ab8cb81358f9317153eba2d.css"><meta property='og:title' content="SeExpr Tiles">
 <meta property='og:description' content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 ">
-<meta property='og:url' content='https://wonderer11.github.io/gallery/seexpr/'>
+<meta property='og:url' content='http://localhost:1313/gallery/seexpr/'>
 <meta property='og:site_name' content='Wonderland'>
-<meta property='og:type' content='article'><meta property='article:section' content='Gallery' /><meta property='article:tag' content='Krita' /><meta property='og:image' content='https://wonderer11.github.io/logo/krita_logo_hu_87ce84320e1d452b.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Gallery' /><meta property='article:tag' content='Krita' /><meta property='og:image' content='http://localhost:1313/logo/krita_logo_hu_87ce84320e1d452b.png' />
 <meta name="twitter:title" content="SeExpr Tiles">
 <meta name="twitter:description" content="Checkerboard 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 # Colour $color1 = [0,0,0]; $color2 = [1,1,1]; # Number of subdivisions in each direction $xSubdiv = 10; # 2, 100 $ySubdiv = 10; # 2, 100 # Calculate integer coordinates based on subdivisions $ix = floor($u * $xSubdiv); $iy = floor($v * $ySubdiv); # Checkerboard pattern using modulo operator if (($ix + $iy) % 2 == 0) { $color = $color1; } else { $color = $color2; } $color Checkerboard Advance 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 # Colour $color1 = [0.0, 0.0, 0.0]; # color $color2 = [1.0, 1.0, 1.0]; # color # Transformation Controls $scale_horizontal = 10.0; # 1.0, 50.0 $scale_vertical = 10.0; # 1.0, 50.0 $offset_horizontal = 0.0; # -1.0, 1.0 $offset_vertical = 0.0; # -1.0, 1.0 $rotation = 0.0; # 0.0, 360.0 $shear = 0.0; # -2.0, 2.0 # Rotation Matrix $angleRad = rad($rotation); $cosA = cos($angleRad); $sinA = sin($angleRad); # Center coordinates around (0.5, 0.5) to rotate from the middle $uCent = $u - 0.5; $vCent = $v - 0.5; $rotU = $uCent * $cosA - $vCent * $sinA + 0.5; $rotV = $uCent * $sinA + $vCent * $cosA + 0.5; # Shearing $shearedU = $rotU + ($shear * $rotV); $shearedV = $rotV; # Tiling and Global Offsets # Multiply by scale to ensure higher numbers create more repetitions $scaledX = ($shearedU + $offset_horizontal) * $scale_horizontal; $scaledY = ($shearedV + $offset_vertical) * $scale_vertical; # Use floor to get discrete integer grid cell IDs $cellX = floor($scaledX); $cellY = floor($scaledY); # Checkerboard Checker (Safe Alternative to %) # If the sum of the coordinates is even, use color1, else color2 $isEven = fmod(abs($cellX + $cellY), 2.0) &lt; 1.0; # Output $isEven ? $color1 : $color2 "><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://wonderer11.github.io/logo/krita_logo_hu_87ce84320e1d452b.png' />
+    <meta name="twitter:image" content='http://localhost:1313/logo/krita_logo_hu_87ce84320e1d452b.png' />
     <link rel="shortcut icon" href="/img/avatar_hu_33846a4151f48cb8.png" />
 
     </head>
@@ -1093,26 +1093,6 @@
 
     
 
-<aside>
-    <h2 class="section-title">Related content</h2>
-    <div class="subsection-list">
-        <div class="article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/blockchain-test-markdown/">
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Blockchain Test Markdown</h2>
-        </div>
-    </a>
-</article>
-            
-        </div>
-    </div>
-</aside>
-
      
     
 
@@ -1165,7 +1145,7 @@
             </main>
         </div>
         
-<script type="text/javascript" src="/ts/main.1ff1e5fdc4e178ed422e50aa407526dc552f26342d729343fded19416194382c.js" defer></script>
+<script type="text/javascript" src="/ts/main.304380fdd8b666f8cc72b18d5156b3a45930ad972db345a28a7652eb341ee580.js" defer></script>
 
 
     </body>

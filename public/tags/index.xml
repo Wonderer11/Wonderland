@@ -1,44 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Wonderland</title>
-        <link>https://wonderer11.github.io/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on Wonderland</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="https://wonderer11.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Alien Stage</title>
-            <link>https://wonderer11.github.io/tags/alien-stage/</link>
+            <link>http://localhost:1313/tags/alien-stage/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>https://wonderer11.github.io/tags/alien-stage/</guid>
+            <guid>http://localhost:1313/tags/alien-stage/</guid>
             <description></description>
         </item><item>
             <title>DOL</title>
-            <link>https://wonderer11.github.io/tags/dol/</link>
+            <link>http://localhost:1313/tags/dol/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>https://wonderer11.github.io/tags/dol/</guid>
+            <guid>http://localhost:1313/tags/dol/</guid>
             <description></description>
         </item><item>
             <title>Krita</title>
-            <link>https://wonderer11.github.io/tags/krita/</link>
+            <link>http://localhost:1313/tags/krita/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>https://wonderer11.github.io/tags/krita/</guid>
-            <description>&lt;img src=&#34;https://wonderer11.github.io/logo/krita_logo_hu_87ce84320e1d452b.png&#34; alt=&#34;Featured image of post Krita&#34; /&gt;</description>
-        </item><item>
-            <title>LikeCoin</title>
-            <link>https://wonderer11.github.io/tags/likecoin/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>https://wonderer11.github.io/tags/likecoin/</guid>
-            <description></description>
+            <guid>http://localhost:1313/tags/krita/</guid>
+            <description>&lt;img src=&#34;http://localhost:1313/logo/krita_logo_hu_87ce84320e1d452b.png&#34; alt=&#34;Featured image of post Krita&#34; /&gt;</description>
         </item><item>
             <title>Pixel Art</title>
-            <link>https://wonderer11.github.io/tags/pixel-art/</link>
+            <link>http://localhost:1313/tags/pixel-art/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>https://wonderer11.github.io/tags/pixel-art/</guid>
+            <guid>http://localhost:1313/tags/pixel-art/</guid>
             <description></description>
         </item><item>
             <title>Vroid Studio</title>
-            <link>https://wonderer11.github.io/tags/vroid-studio/</link>
+            <link>http://localhost:1313/tags/vroid-studio/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>https://wonderer11.github.io/tags/vroid-studio/</guid>
+            <guid>http://localhost:1313/tags/vroid-studio/</guid>
             <description></description>
         </item></channel>
 </rss>
