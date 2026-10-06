@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Wonderland</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://wonderer11.github.io/tags/</link>
         <description>Recent content in Tags on Wonderland</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language><atom:link href="https://wonderer11.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Alien Stage</title>
-            <link>http://localhost:1313/tags/alien-stage/</link>
+            <link>https://wonderer11.github.io/tags/alien-stage/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/tags/alien-stage/</guid>
+            <guid>https://wonderer11.github.io/tags/alien-stage/</guid>
             <description></description>
         </item><item>
             <title>Krita</title>
-            <link>http://localhost:1313/tags/krita/</link>
+            <link>https://wonderer11.github.io/tags/krita/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/tags/krita/</guid>
+            <guid>https://wonderer11.github.io/tags/krita/</guid>
             <description></description>
         </item><item>
             <title>Like Pay</title>
-            <link>http://localhost:1313/tags/like-pay/</link>
+            <link>https://wonderer11.github.io/tags/like-pay/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/tags/like-pay/</guid>
+            <guid>https://wonderer11.github.io/tags/like-pay/</guid>
             <description></description>
         </item><item>
             <title>LikeCoin</title>
-            <link>http://localhost:1313/tags/likecoin/</link>
+            <link>https://wonderer11.github.io/tags/likecoin/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/tags/likecoin/</guid>
+            <guid>https://wonderer11.github.io/tags/likecoin/</guid>
             <description></description>
         </item><item>
             <title>LikeCoin Button</title>
-            <link>http://localhost:1313/tags/likecoin-button/</link>
+            <link>https://wonderer11.github.io/tags/likecoin-button/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/tags/likecoin-button/</guid>
+            <guid>https://wonderer11.github.io/tags/likecoin-button/</guid>
             <description></description>
         </item><item>
             <title>Vroid Studio</title>
-            <link>http://localhost:1313/tags/vroid-studio/</link>
+            <link>https://wonderer11.github.io/tags/vroid-studio/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/tags/vroid-studio/</guid>
+            <guid>https://wonderer11.github.io/tags/vroid-studio/</guid>
             <description></description>
         </item></channel>
 </rss>
