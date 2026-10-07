@@ -10,5 +10,11 @@
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             <guid>http://localhost:1313/post/blockchain/</guid>
             <description></description>
+        </item><item>
+            <title>Novella</title>
+            <link>http://localhost:1313/post/novella/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>http://localhost:1313/post/novella/</guid>
+            <description></description>
         </item></channel>
 </rss>

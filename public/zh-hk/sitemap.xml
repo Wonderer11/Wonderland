@@ -147,6 +147,18 @@
                 href="http://localhost:1313/zh-tw/categories/test/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh-hk/categories/%E4%BA%8C%E5%89%B5/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/categories/%E4%BA%8C%E5%89%B5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/categories/%E4%BA%8C%E5%89%B5/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh-hk/categories/%E5%88%86%E6%9E%90/</loc>
     <xhtml:link
                 rel="alternate"
@@ -235,6 +247,11 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh-hk/post/novella/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/novella/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hk"

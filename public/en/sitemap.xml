@@ -106,7 +106,7 @@
                 href="http://localhost:1313/zh-tw/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/gallery/character-sheet/</loc>
+    <loc>http://localhost:1313/g/character-sheet/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/dol/</loc>
   </url><url>
@@ -131,7 +131,24 @@
   </url><url>
     <loc>http://localhost:1313/tags/krita/</loc>
   </url><url>
-    <loc>http://localhost:1313/gallery/lovers-eye/</loc>
+    <loc>http://localhost:1313/g/lovers-eye/</loc>
+  </url><url>
+    <loc>http://localhost:1313/post/novella/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/post/novella/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/post/novella/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/post/novella/"
+                />
   </url><url>
     <loc>http://localhost:1313/page/</loc>
     <xhtml:link
@@ -169,7 +186,7 @@
                 href="http://localhost:1313/zh-tw/search/"
                 />
   </url><url>
-    <loc>http://localhost:1313/gallery/seexpr/</loc>
+    <loc>http://localhost:1313/g/seexpr-tiles/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
@@ -206,5 +223,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/vroid-studio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/originality/</loc>
   </url>
 </urlset>
