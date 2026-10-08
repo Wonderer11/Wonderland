@@ -1,5 +1,5 @@
 ---
-title: DOL
+title: Degrees of Lewdity
 description: Collection of works related to erotic game Degrees of Lewdity (DOL)
 image: 
 links:
