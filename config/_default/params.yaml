@@ -21,8 +21,8 @@ sidebar:
   avatar: img/avatar.png
 
 dateFormat:
-  published: :date_full
-  lastUpdated: :date_full
+  published: "2006"
+  lastUpdated: "2006"
 
 article:
   headingAnchor: false

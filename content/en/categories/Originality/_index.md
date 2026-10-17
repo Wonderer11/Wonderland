@@ -1,5 +1,5 @@
 ---
-title: 原創
+title: Original Works
 description: Collection of original works.
 image: 
 links:

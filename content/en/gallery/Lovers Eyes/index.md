@@ -1,5 +1,5 @@
 ---
-title: Lovers' Eye
+title: Lovers' Eyes
 description: 
 image: 
 categories:
@@ -8,6 +8,7 @@ tags:
   - Krita
   - DOL
   - Pixel Art
+lastmod: 2026-01-01
 comments: false
 ---
 # In Town

@@ -1,6 +1,8 @@
 {{- $IsList := .IsList -}}
 {{- $Page := .Page -}}
+
 <div class="article-details">
+
     {{ if $Page.Params.categories }}
     <header class="article-category">
         {{ range ($Page.GetTerms "categories") }}
@@ -40,7 +42,7 @@
             <div class="inline-meta">
                 {{ if $showDate }}
                     {{ partial "helper/icon" "date" }}
-                    <time class="article-time--published" datetime='{{ $Page.Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                    <time class="article-time--published" datetime='{{ $Page.Date.Format "2006" }}'>
                         {{- $Page.Date | time.Format $Page.Site.Params.dateFormat.published -}}
                     </time>
                 {{ end }}

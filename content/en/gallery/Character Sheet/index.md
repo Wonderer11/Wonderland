@@ -7,7 +7,7 @@ categories:
 tags:
   - Krita
   - Vroid Studio
-  - Alien Stage
+  - ALNST
 draft: false
 comments: false
 ---

@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -17,6 +18,75 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="http://localhost:1313/zh-tw/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/dol/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/fanworks/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gallery/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/gallery/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/krita/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/g/lovers-eyes/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pixel-art/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hk"
+                href="http://localhost:1313/zh-hk/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="http://localhost:1313/zh-tw/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/</loc>
@@ -36,7 +106,7 @@
                 href="http://localhost:1313/zh-tw/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/alien-stage/</loc>
+    <loc>http://localhost:1313/tags/alnst/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <xhtml:link
@@ -89,49 +159,7 @@
                 href="http://localhost:1313/zh-tw/post/blockchain/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/categories/"
-                />
-  </url><url>
     <loc>http://localhost:1313/g/character-sheet/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/dol/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/fanworks/</loc>
-  </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/gallery/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/krita/</loc>
-  </url><url>
-    <loc>http://localhost:1313/g/lovers-eye/</loc>
   </url><url>
     <loc>http://localhost:1313/post/novella/</loc>
     <xhtml:link
@@ -150,6 +178,8 @@
                 href="http://localhost:1313/zh-tw/post/novella/"
                 />
   </url><url>
+    <loc>http://localhost:1313/categories/originality/</loc>
+  </url><url>
     <loc>http://localhost:1313/page/</loc>
     <xhtml:link
                 rel="alternate"
@@ -166,8 +196,6 @@
                 hreflang="zh-tw"
                 href="http://localhost:1313/zh-tw/page/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/pixel-art/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <xhtml:link
@@ -188,42 +216,8 @@
   </url><url>
     <loc>http://localhost:1313/g/seexpr-tiles/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/tags/"
-                />
-  </url><url>
     <loc>http://localhost:1313/categories/test/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hk"
-                href="http://localhost:1313/zh-hk/categories/test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/zh-tw/categories/test/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/vroid-studio/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/originality/</loc>
   </url>
 </urlset>
