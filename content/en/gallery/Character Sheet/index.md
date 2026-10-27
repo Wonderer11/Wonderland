@@ -8,7 +8,7 @@ tags:
   - Krita
   - Vroid Studio
   - ALNST
-draft: false
+lastmod: 2025-01-01
 comments: false
 ---
 # Alien Stage Style

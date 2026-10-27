@@ -6,6 +6,7 @@ categories:
   - Test
 tags: 
   - Krita
+lastmod: 2026-01-01
 links:
   - title: Krita Manual
     description: 
